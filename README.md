@@ -66,16 +66,13 @@ The model shows useful discriminatory power for a portfolio-scale synthetic data
 |-- run_pipeline.py
 |-- requirements.txt
 |-- data/
-|   |-- rpa_process_runs_raw.csv
-|   |-- rpa_process_runs_clean.csv
-|   |-- rpa_process_runs_preprocessed.csv
-|   `-- rpa_process_runs_clustered.csv
+|   `-- rpa_process_runs_raw.csv
 |-- outputs/
 |   `-- key_results.csv
-|-- plots/
-|   `-- generated analytical charts
-`-- report/
-    `-- Original_Course_Report_R.pdf
+`-- plots/
+    |-- pca_clusters.png
+    |-- roc_curve.png
+    `-- corr_heatmap.png
 ```
 
 ## How to run
@@ -109,7 +106,7 @@ The dataset is synthetic and was created because a public run-level RPA operatio
 
 ## Report note
 
-The included course report documents the original R-based analysis. The scripts in this repository are a Python implementation of the same workflow. The Python results shown in this README are generated directly from the checked-in code and may differ from the report because R and Python use different implementations for random generation, stepwise feature selection, and decision-tree pruning.
+The original course report documented an R-based analysis. The scripts in this repository are a Python implementation of the same workflow. The Python results shown here are generated directly from the checked-in code and may differ from the original report because R and Python use different implementations for random generation, stepwise feature selection, and decision-tree pruning.
 
 ## Skills demonstrated
 

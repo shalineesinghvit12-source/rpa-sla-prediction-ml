@@ -1,0 +1,636 @@
+process_id,run_date,department,region,process_type,complexity,bot_id,day_of_week,transactions_processed,avg_handling_time_sec,data_volume_mb,exception_count,cpu_utilization_pct,queue_wait_time_sec,manual_time_saved_min,sla_met
+RPA-00011,2026-03-30,IT Support,APAC,Reconciliation,Medium,Bot_4,Fri,172,24.73,22.31,2,38.0,22.4,207.2,Yes
+RPA-00162,2026-03-10,Order Processing,US,Report Generation,Medium,Bot_4,Mon,206,22.19,19.29,1,51.1,33.6,252.6,No
+RPA-00272,2026-02-01, customer service ,US,Email Triage,Medium,Bot_5,Thu,83,15.75,9.02,1,54.6,5.3,108.6,No
+RPA-00516,2026-03-06,Order Processing,US,Report Generation,Medium,Bot_7,Mon,204,13.2,19.43,2,66.2,47.5,289.0,Yes
+RPA-00292,2026-05-08,Procurement,US,Data Entry,High,Bot_5,Thu,69,26.34,16.94,2,58.7,63.9,103.9,No
+RPA-00137,2026-05-09,Procurement,APAC,Email Triage,Low,Bot_8,Wed,235,10.47,13.84,5,27.7,35.4,238.6,No
+RPA-00284,2026-03-18,IT Support,APAC,Data Entry,Low,Bot_4,Fri,232,8.99,12.85,0,43.7,7.4,242.7,Yes
+RPA-00346,2026-05-10,Finance,UK,Order Validation,Medium,Bot_10,Fri,172,21.44,39.84,5,62.7,73.9,221.6,No
+RPA-00174,2026-05-17,Procurement,US,Invoice Processing,High,Bot_9,Mon,141,29.36,33.49,4,52.7,13.1,209.0,Yes
+RPA-00229,2026-03-10,Order Processing,APAC,Data Entry,Low,Bot_4,Wed,192,17.49,37.83,4,31.4,12.8,172.4,No
+RPA-00161,2026-04-24,Finance,UK,Reconciliation,Medium,Bot_11,Fri,140,22.52,20.91,2,63.4,104.3,174.1,Yes
+RPA-00343,2026-02-16,Finance,APAC,Report Generation,Low,Bot_8,Fri,192,19.35,29.9,3,49.6,150.7,164.2,No
+RPA-00510,2026-04-17,Procurement,UK,Data Entry,High,Bot_10,Fri,88,27.15,29.67,0,70.8,15.9,129.2,No
+RPA-00266,2026-05-21,Customer Service,APAC,Report Generation,Low,Bot_9,Fri,255,16.01,10.5,3,39.7,20.1,242.0,No
+RPA-00269,2026-01-21,Customer Service,APAC,Report Generation,Medium,Bot_11,Wed,141,20.43,11.49,2,44.6,100.5,176.2,No
+RPA-00142,2026-04-10,IT Support,UK,Report Generation,Low,Bot_4,Tue,213,10.65,13.43,0,47.8,40.2,214.4,No
+RPA-00244,2026-03-25,Finance,US,Invoice Processing,Medium,Bot_6,Fri,153,19.74,20.02,4,69.0,55.2,190.0,No
+RPA-00588,2026-03-16, finance ,US,Report Generation,Low,Bot_9,Tue,220,14.05,15.24,4,43.0,39.2,217.5,No
+RPA-00272,2026-02-01, customer service ,US,Email Triage,Medium,Bot_5,Thu,83,15.75,9.02,1,54.6,5.3,108.6,No
+RPA-00305,2026-05-09,Customer Service,UK,Report Generation,Low,Bot_3,Mon,194,13.72,19.19,0,36.1,83.4,179.4,Yes
+RPA-00420,2026-05-24,Finance,UK,Reconciliation,Medium,Bot_9,Mon,149,18.35,33.16,3,58.1,77.4,188.3,No
+RPA-00334,2026-04-08,Customer Service,US,Order Validation,Low,Bot_8,Wed,254,12.3,20.21,24,42.0,6.5,255.7,Yes
+RPA-00448,2026-02-22,Order Processing,UK,Reconciliation,Medium,Bot_4,Wed,168,18.17,10.93,1,39.9,8.9,,No
+RPA-00576,2026-01-13,IT SUPPORT,UK,Email Triage,Medium,Bot_11,Fri,205,17.34,25.74,6,48.7,0.8,265.6,No
+RPA-00088,2026-05-30,Finance,US,Report Generation,Low,Bot_6,Mon,170,11.13,10.05,1,41.5,93.7,168.6,Yes
+RPA-00442,2026-03-12,Finance,US,Order Validation,Low,Bot_2,Mon,197,14.54,,6,48.9,30.2,188.6,No
+RPA-00221,2026-03-30,Customer Service,UK,INVOICE PROCESSING,Medium,Bot_7,Thu,148,25.37,22.39,6,37.2,35.5,181.7,No
+RPA-00264,2026-05-14, order processing ,US,Reconciliation,Medium,Bot_9,Tue,144,21.77,16.21,2,38.1,159.5,168.0,No
+RPA-00388,2026-02-22,Procurement,UK,ORDER VALIDATION,Medium,Bot_3,Mon,111,21.4,29.73,0,67.4,167.3,149.7,No
+RPA-00359,2026-01-14,IT Support,UK,Reconciliation,Low,Bot_9,Fri,209,16.17,13.92,4,,29.0,198.2,Yes
+RPA-00513,2026-05-18,Order Processing,US,Report Generation,Medium,Bot_3,Mon,162,19.29,,4,37.7,0.7,215.3,No
+RPA-00079,2026-03-10,Procurement,UK,Data Entry,Low,Bot_10,Tue,240,15.26,30.71,1,52.1,46.5,232.9,No
+RPA-00275,2026-02-13,Order Processing,US,Report Generation,High,Bot_7,Thu,148,26.06,49.3,1,39.2,30.5,231.2,Yes
+RPA-00183,2026-04-21, customer service ,US,Email Triage,Medium,Bot_5,Wed,168,11.41,8.53,1,31.7,18.5,235.8,Yes
+RPA-00528,2026-04-27,Order Processing,US,Data Entry,Low,Bot_9,Thu,220,18.67,30.75,2,51.5,0.3,194.7,Yes
+RPA-00219,2026-03-16,Customer Service,UK,Report Generation,Medium,Bot_2,Fri,168,22.99,35.68,5,57.8,71.1,202.8,No
+RPA-00243,2026-05-27,HR,UK,Invoice Processing,Medium,Bot_10,Tue,163,18.75,19.26,4,43.2,79.7,211.4,No
+RPA-00134,2026-04-11,Finance,US,Data Entry,High,Bot_11,Fri,185,28.41,14.37,6,64.5,22.6,272.1,No
+RPA-00366,2026-05-07,Order Processing,US,Invoice Processing,Low,Bot_9,Fri,161,16.66,18.59,2,37.7,17.7,166.0,No
+RPA-00419,2026-02-07,Order Processing,UK,Invoice Processing,Medium,Bot_12,Wed,180,19.82,24.82,7,59.1,27.9,227.2,Yes
+RPA-00591,2026-04-06,IT Support,UK,Reconciliation,Medium,Bot_9,Tue,185,16.2,28.6,6,53.1,61.1,247.7,No
+RPA-00330,2026-01-31,Customer Service,APAC,Report Generation,Low,Bot_10,Mon,243,14.89,10.73,1,58.9,47.2,230.1,Yes
+RPA-00227,2026-05-09,Finance,APAC,Report Generation,Low,Bot_10,Tue,213,15.54,16.9,2,24.3,73.7,203.7,Yes
+RPA-00228,2026-01-11,ORDER PROCESSING,APAC,Report Generation,Low,Bot_10,Wed,156,10.05,20.86,3,45.3,51.7,162.7,No
+RPA-00076,2026-04-01,Finance,UK,Email Triage,High,Bot_3,Wed,185,23.09,29.25,8,53.9,134.2,299.7,No
+RPA-00268,2026-02-15,Order Processing,UK,Reconciliation,Low,Bot_9,Mon,168,11.76,16.86,4,52.1,61.4,175.3,No
+RPA-00374,2026-04-17,Finance,APAC,Order Validation,Low,Bot_9,Wed,157,12.51,30.32,2,62.2,117.1,154.5,No
+RPA-00179,2026-05-31,IT Support,US,Reconciliation,High,Bot_9,Fri,160,21.87,21.09,9,69.3,70.3,265.2,No
+RPA-00514,2026-03-17,Customer Service,US,Email Triage,Low,Bot_5,Fri,220,12.96,4.88,3,31.7,22.4,214.8,No
+RPA-00056,2026-05-11,Finance,UK,Order Validation,Medium,Bot_2,Tue,230,16.66,13.36,4,68.0,5.7,304.2,No
+RPA-00349,2026-04-13,Finance,US,Order Validation,Medium,Bot_7,Fri,203,,21.52,3,,16.5,256.0,Yes
+RPA-00470,2026-05-29,Finance,US,Email Triage,Low,Bot_11,Fri,230,13.45,21.96,2,43.4,20.1,233.2,No
+RPA-00582,2026-05-10,Finance,UK,Data Entry,Low,Bot_2,Fri,194,11.41,6.25,1,46.8,56.4,195.3,No
+RPA-00006,2026-03-12,IT Support,US,Email Triage,Low,Bot_5,Mon,235,19.68,8.27,1,50.9,32.9,200.9,Yes
+RPA-00440,2026-05-13,Finance,UK,Invoice Processing,Low,Bot_3,Thu,162,14.94,13.76,1,35.4,27.1,148.2,Yes
+RPA-00153,2026-04-13,IT Support,US,Data Entry,Low,Bot_7,Mon,182,12.86,10.35,5,38.1,29.3,181.6,No
+RPA-00610,2026-03-14,Finance,UK,Order Validation,Medium,Bot_11,Wed,249,20.88,8.06,1,50.2,17.4,316.0,No
+RPA-00125,2026-04-05,Procurement,UK,Report Generation,Low,Bot_1,Mon,228,12.83,4.94,0,41.5,19.9,224.2,Yes
+RPA-00164,2026-02-11,Customer Service,UK,Email Triage,Medium,Bot_5,Tue,135,13.26,42.61,2,46.0,46.3,187.0,No
+RPA-00215,2026-05-22,IT Support,APAC,Order Validation,Medium,Bot_4,Mon,177,19.44,24.73,2,39.5,44.7,220.2,No
+RPA-00286,2026-04-19,Procurement,UK,Invoice Processing,Low,Bot_9,Thu,174,17.92,3.79,0,42.0,22.8,151.9,Yes
+RPA-00118,2026-03-22,Finance,US,Reconciliation,Medium,Bot_9,Mon,90,20.19,24.56,1,40.0,28.5,109.9,Yes
+RPA-00231,2026-05-12,Procurement,UK,Invoice Processing,Low,Bot_11,Mon,242,14.65,12.26,3,36.9,147.8,226.4,No
+RPA-00372,2026-02-10,IT Support,UK,Report Generation,Low,Bot_8,Mon,144,16.86,13.87,1,42.4,67.0,120.8,Yes
+RPA-00333,2026-05-04,Customer Service,UK,Report Generation,Medium,Bot_11,Wed,122,22.09,21.56,6,54.2,12.1,151.5,No
+RPA-00169,2026-03-08, order processing ,US,Order Validation,Medium,Bot_2,Fri,189,14.29,27.02,3,32.1,6.8,254.6,No
+RPA-00483,2026-05-14,Procurement,APAC,Data Entry,Medium,Bot_3,Tue,259,,21.09,5,48.9,0.3,300.1,No
+RPA-00542,2026-03-15,Customer Service,UK,RECONCILIATION,Medium,Bot_8,Wed,164,16.68,15.18,7,48.2,5.3,223.7,Yes
+RPA-00065,2026-05-30,Order Processing,US,Email Triage,High,Bot_6,Wed,129,27.16,27.13,3,55.1,1.7,192.4,Yes
+RPA-00377,2026-05-26,HR,US,Data Entry,Low,Bot_11,Wed,238,16.98,9.42,1,29.7,60.1,219.0,No
+RPA-00603,2026-02-13,Finance,US,Invoice Processing,High,Bot_6,Wed,84,22.87,11.14,3,45.5,27.4,128.9,No
+RPA-00556,2026-04-01,Customer Service,US,Order Validation,High,Bot_4,Mon,92,28.37,12.91,5,,31.0,142.6,No
+RPA-00498,2026-01-14,Finance,UK,Reconciliation,High,Bot_10,Mon,167,21.48,28.42,6,43.7,189.8,,No
+RPA-00208,2026-02-24,Customer Service,US,Invoice Processing,Medium,Bot_3,Tue,133,,15.39,1,55.4,45.8,162.8,Yes
+RPA-00599,2026-03-23,Order Processing,APAC,Data Entry,Medium,Bot_3,Tue,157,21.22,14.98,0,32.9,4.3,198.9,Yes
+RPA-00053,2026-03-13,IT Support,UK,Report Generation,Medium,Bot_5,Wed,196,22.59,32.38,5,45.3,38.2,235.9,No
+RPA-00150,2026-01-23,Order Processing,APAC,Order Validation,Medium,Bot_8,Thu,176,22.52,37.42,2,23.7,46.4,215.3,Yes
+RPA-00339,2026-04-26,Procurement,US,Invoice Processing,Medium,Bot_7,Fri,223,24.16,10.32,4,61.4,5.1,261.3,Yes
+RPA-00389,2026-04-26,Customer Service,UK,Email Triage,Low,Bot_4,Wed,191,12.99,7.42,1,30.1,5.9,182.4,No
+RPA-00291,2026-05-31,Order Processing,APAC,Reconciliation,Medium,Bot_12,Mon,134,22.22,28.94,1,54.2,238.6,159.8,No
+RPA-00328,2026-05-23,Order Processing,UK,Report Generation,Low,Bot_3,Tue,232,9.8,15.48,2,16.6,127.7,250.5,No
+RPA-00107,2026-01-16,Finance,US,Order Validation,Medium,Bot_5,Fri,199,16.38,12.49,2,51.5,60.3,265.7,Yes
+RPA-00583,2026-03-04,IT Support,APAC,ORDER VALIDATION,Medium,Bot_11,Thu,186,252.60000000000002,21.36,4,39.2,92.7,234.8,No
+RPA-00095,2026-04-18,Procurement,US,Invoice Processing,Medium,Bot_4,Mon,165,,14.5,1,59.8,92.7,196.4,Yes
+RPA-00569,2026-05-17,Procurement,APAC,Email Triage,Medium,Bot_3,Mon,147,,18.72,4,42.7,8.9,190.1,No
+RPA-00373,2026-05-02,HR,US,Reconciliation,High,Bot_11,Mon,147,21.52,15.62,3,64.4,139.5,239.7,No
+RPA-00026,2026-03-25,IT Support,US,Email Triage,High,Bot_1,Tue,137,21.45,20.99,1,60.7,16.5,228.4,Yes
+RPA-00282,2026-04-03,Order Processing,US,Data Entry,Medium,Bot_12,Fri,144,22.46,8.68,2,54.4,10.4,178.8,Yes
+RPA-00160,2026-03-22,,UK,Reconciliation,Medium,Bot_2,Wed,129,19.59,11.71,2,39.2,21.8,165.3,Yes
+RPA-00313,2026-05-10,Order Processing,UK,Report Generation,Low,Bot_12,Wed,226,19.86,10.68,2,24.9,75.2,205.5,No
+RPA-00128,2026-01-14,Procurement,UK,Invoice Processing,Medium,Bot_4,Thu,139,,16.8,1,48.1,8.7,189.0,No
+RPA-00307,2026-01-15,HR,US,Report Generation,Low,Bot_7,Thu,219,23.94,16.13,1,34.5,62.9,168.3,No
+RPA-00193,2026-03-03,Finance,APAC,Email Triage,Medium,Bot_3,Fri,240,22.36,23.93,5,65.9,14.2,287.1,No
+RPA-00351,2026-05-12,Order Processing,US,REPORT GENERATION,Medium,Bot_8,Mon,206,14.0,53.35,3,37.9,109.3,283.5,Yes
+RPA-00574,2026-06-04,IT Support,APAC,Invoice Processing,Medium,Bot_7,Fri,211,22.2,,3,39.8,4.9,248.3,Yes
+RPA-00358,2026-03-28,HR,US,Reconciliation,High,Bot_4,Fri,177,23.63,19.4,5,68.0,71.2,282.7,No
+RPA-00104,2026-04-24,Finance,US,Email Triage,Low,Bot_10,Tue,142,17.27,9.81,2,45.1,0.6,130.1,Yes
+RPA-00326,2026-05-01,Customer Service,UK,Invoice Processing,Medium,Bot_7,Tue,213,18.56,14.18,3,62.8,4.9,284.9,Yes
+RPA-00159,2026-02-03,Customer Service,UK,Report Generation,Low,Bot_4,Mon,207,12.02,15.69,1,60.6,28.8,203.9,Yes
+RPA-00281,2026-05-24,FINANCE,US,Order Validation,Medium,Bot_12,Mon,175,15.42,7.34,1,41.9,15.2,232.5,Yes
+RPA-00204,2026-01-25,IT Support,APAC,Reconciliation,High,Bot_9,Thu,138,26.98,11.38,4,63.0,57.5,208.6,No
+RPA-00560,2026-03-10,Finance,US,Order Validation,Medium,Bot_12,Tue,195,23.27,35.14,2,52.5,36.4,235.2,Yes
+RPA-00530,2026-04-14,Procurement,APAC,Order Validation,Medium,Bot_7,Fri,92,23.78,12.7,5,73.0,5.5,109.0,No
+RPA-00094,2026-01-17,IT Support,US,Order Validation,Low,Bot_1,Mon,299,12.77,44.77,1,38.9,24.3,298.6,No
+RPA-00189,2026-01-18,Finance,US,Order Validation,Low,Bot_5,Fri,191,12.07,10.96,3,46.2,57.7,194.1,Yes
+RPA-00367,2026-03-11,Order Processing,US,Report Generation,High,Bot_8,Wed,79,30.9,29.05,3,45.5,28.0,112.2,No
+RPA-00230,2026-02-08,Order Processing,UK,Reconciliation,Low,Bot_10,Tue,138,11.54,15.48,1,40.1,5.9,142.5,Yes
+RPA-00101,2026-04-07,Order Processing,US,Report Generation,Low,Bot_2,Thu,172,15.91,,1,57.7,120.8,162.2,No
+RPA-00254,2026-02-06,Finance,US,Order Validation,High,Bot_6,Wed,147,30.32,9.83,2,50.2,22.5,211.8,Yes
+RPA-00386,2026-04-15,Procurement,US,Email Triage,Medium,Bot_1,Wed,131,21.55,13.36,0,56.3,36.1,161.5,Yes
+RPA-00178,2026-05-16,Procurement,APAC,Invoice Processing,High,Bot_12,Mon,69,31.11,16.98,3,67.9,23.8,106.1,No
+RPA-00197,2026-02-22,IT Support,US,Order Validation,Low,Bot_12,Mon,263,16.2,13.37,1,37.4,17.8,245.4,Yes
+RPA-00338,2026-05-24,Procurement,UK,Order Validation,Medium,Bot_1,Fri,202,23.62,38.93,2,62.1,164.0,243.2,No
+RPA-00446,2026-05-24, order processing ,UK,Invoice Processing,High,Bot_7,Fri,227,23.84,21.67,4,68.9,72.1,361.1,No
+RPA-00609,2026-04-30,Order Processing,APAC,Report Generation,Low,Bot_7,Thu,261,13.35,11.34,0,77.3,34.3,260.6,No
+RPA-00354,2026-03-21,Finance,US,Data Entry,Medium,Bot_10,Wed,184,16.37,12.91,5,40.5,43.2,248.9,No
+RPA-00191,2026-03-16,Customer Service,APAC,Email Triage,Medium,Bot_6,Wed,183,23.48,16.36,2,60.2,13.0,225.6,Yes
+RPA-00466,2026-01-18,Procurement,US,Report Generation,High,Bot_6,Mon,167,22.8,16.67,6,69.2,56.0,277.1,No
+RPA-00031,2026-03-14,HR,US,Data Entry,Medium,Bot_4,Fri,184,24.69,7.3,2,73.9,10.3,226.1,Yes
+RPA-00340,2026-01-24,Finance,US,Invoice Processing,Medium,Bot_9,Wed,224,,9.12,1,66.1,52.6,276.0,No
+RPA-00199,2026-01-12,IT Support,US,Data Entry,Medium,Bot_7,Mon,196,20.66,6.17,2,64.9,109.1,252.0,No
+RPA-00441,2026-03-24,IT Support,US,Report Generation,Low,Bot_10,Tue,186,14.62,16.36,0,,80.3,183.4,Yes
+RPA-00017,2026-03-20,Finance,APAC,DATA ENTRY,Low,Bot_8,Fri,270,,7.45,1,39.5,195.1,238.8,No
+RPA-00394,2026-01-21,Finance,US,Data Entry,Low,Bot_1,Thu,148,13.8,21.34,3,47.1,53.5,154.5,No
+RPA-00082,2026-02-09,HR,APAC,Order Validation,Medium,Bot_11,Mon,144,19.49,13.36,3,54.5,55.0,179.4,No
+RPA-00187,2026-05-02,Order Processing,APAC,Email Triage,High,Bot_2,Tue,61,29.4,17.08,2,23.9,5.6,93.7,No
+RPA-00539,2026-05-06,Customer Service,UK,Invoice Processing,Medium,Bot_8,Thu,204,26.26,47.7,4,31.1,23.1,243.7,No
+RPA-00013,2026-02-08,Order Processing,US,Email Triage,Medium,Bot_12,Thu,97,21.25,27.28,1,45.9,35.3,122.4,Yes
+RPA-00092,2026-05-29,Procurement,UK,Invoice Processing,Medium,Bot_9,Fri,190,16.98,46.05,4,42.8,29.7,250.4,Yes
+RPA-00144,2026-05-03,Order Processing,US,Data Entry,High,Bot_10,Fri,135,27.82,34.0,4,63.7,10.8,210.0,No
+RPA-00263,2026-02-22,Customer Service,APAC,Order Validation,Low,Bot_4,Wed,162,15.05,24.56,2,49.1,19.9,142.7,Yes
+RPA-00115,2026-05-20, order processing ,UK,Data Entry,Medium,Bot_3,Fri,126,19.5,17.87,4,64.3,10.1,161.2,No
+RPA-00317,2026-01-19,Order Processing,APAC,Order Validation,Medium,Bot_10,Wed,188,17.67,17.55,4,54.3,102.2,249.0,No
+RPA-00156,2026-03-26,HR,US,Data Entry,Medium,Bot_8,Fri,166,18.6,26.27,3,46.2,21.5,210.6,Yes
+RPA-00408,2026-04-24,HR,US,Order Validation,Low,Bot_11,Mon,214,6.61,20.23,1,50.3,14.2,244.3,No
+RPA-00145,2026-05-12,Customer Service,US,Invoice Processing,High,Bot_5,Thu,142,28.12,15.27,6,49.3,28.5,209.2,No
+RPA-00023,2026-04-27,Procurement,US,Reconciliation,High,Bot_11,Wed,167,25.91,19.31,3,68.3,26.1,258.2,Yes
+RPA-00534,2026-01-21,Customer Service,UK,Data Entry,Low,Bot_10,Wed,308,16.13,16.36,0,60.0,65.9,287.9,No
+RPA-00100,2026-01-12,IT Support,US,Order Validation,High,Bot_12,Wed,134,27.3,18.24,8,65.8,49.5,207.2,No
+RPA-00038,2026-03-11,Finance,US,Email Triage,High,Bot_7,Mon,179,31.85,11.15,4,79.7,50.2,264.6,No
+RPA-00256,2026-01-22,Order Processing,US,Report Generation,Medium,Bot_12,Wed,171,21.4,9.71,1,52.6,19.4,213.5,Yes
+RPA-00455,2026-05-27,Order Processing,US,Report Generation,Low,Bot_12,Fri,146,15.28,18.2,1,51.7,142.0,146.3,Yes
+RPA-00341,2026-05-09,,UK,RECONCILIATION,High,Bot_10,Thu,195,24.28,12.99,4,73.9,2.2,309.7,No
+RPA-00271,2026-03-03,FINANCE,US,Report Generation,Medium,Bot_7,Thu,227,18.15,16.94,4,36.5,16.1,291.0,Yes
+RPA-00311,2026-04-30,Order Processing,UK,Data Entry,Low,Bot_2,Thu,161,8.32,8.69,0,43.1,7.1,176.9,Yes
+RPA-00046,2026-03-29,Finance,US,Email Triage,Medium,Bot_4,Wed,175,21.91,26.12,5,56.5,21.9,211.2,Yes
+RPA-00280,2026-05-12,Order Processing,UK,Report Generation,Low,Bot_4,Tue,240,14.98,17.16,2,47.0,34.5,231.5,Yes
+RPA-00007,2026-03-21,HR,US,Reconciliation,Medium,Bot_2,Thu,224,19.72,16.45,5,48.2,13.9,282.5,No
+RPA-00459,2026-04-16,IT Support,APAC,Email Triage,High,Bot_2,Wed,98,20.54,16.71,4,72.4,80.6,160.6,No
+RPA-00074,2026-02-06,,APAC,Invoice Processing,Medium,Bot_11,Mon,201,14.44,8.16,6,61.1,40.3,277.7,No
+RPA-00490,2026-03-17,Order Processing,UK,Reconciliation,High,Bot_2,Wed,171,28.84,23.07,8,72.4,15.1,256.2,No
+RPA-00295,2026-04-21,Finance,APAC,Reconciliation,Medium,Bot_11,Tue,152,15.47,49.97,2,63.6,87.4,199.7,No
+RPA-00352,2026-01-17,Order Processing,US,Email Triage,Low,Bot_1,Tue,219,14.31,15.36,3,47.1,27.7,201.7,No
+RPA-00270,2026-01-06,Procurement,US,Invoice Processing,Low,Bot_6,Mon,303,14.8,15.59,5,,27.5,287.1,No
+RPA-00205,2026-02-04,Order Processing,APAC,Report Generation,Low,Bot_6,Tue,177,14.89,9.35,0,48.4,77.0,171.4,Yes
+RPA-00401,2026-01-09,Order Processing,APAC,Order Validation,Low,Bot_9,Mon,187,13.77,21.56,4,51.7,32.7,181.9,No
+RPA-00428,2026-05-02,Finance,UK,Data Entry,Medium,Bot_6,Wed,118,20.64,24.46,7,71.1,144.0,147.2,No
+RPA-00585,2026-05-05,Finance,US,Email Triage,High,Bot_4,Fri,169,25.2,20.51,2,76.8,16.3,266.7,Yes
+RPA-00119,2026-04-05,Procurement,APAC,Email Triage,Low,Bot_8,Fri,242,19.29,18.79,4,9.2,25.0,206.2,No
+RPA-00086,2026-04-19,Order Processing,APAC,Data Entry,Low,Bot_9,Thu,208,15.02,8.13,0,47.3,10.5,189.5,Yes
+RPA-00072,2026-04-23,IT Support,UK,Report Generation,Low,Bot_7,Mon,184,8.93,18.81,0,35.6,81.2,190.2,Yes
+RPA-00194,2026-04-15,PROCUREMENT,US,Reconciliation,Medium,Bot_1,Fri,183,17.01,21.49,3,62.1,9.8,243.6,Yes
+RPA-00085,2026-03-21,HR,UK,Report Generation,High,Bot_9,Mon,72,26.01,20.2,7,51.8,11.7,112.5,No
+RPA-00034,2026-04-24,Order Processing,US,Invoice Processing,Low,Bot_12,Mon,210,13.65,7.17,1,,117.2,197.0,Yes
+RPA-00058,2026-04-23,Order Processing,UK,Data Entry,Low,Bot_7,Mon,200,12.69,7.31,3,41.6,48.0,198.8,No
+RPA-00214,2026-03-16,Order Processing,APAC,Email Triage,Medium,Bot_6,Thu,199,22.84,28.52,2,66.9,61.9,244.8,Yes
+RPA-00099,2026-04-16,HR,US,Report Generation,Low,Bot_3,Wed,218,16.41,4.94,0,53.2,49.5,203.2,Yes
+RPA-00050,2026-03-23,HR,UK,Reconciliation,High,Bot_5,Mon,107,28.9,37.68,1,,38.8,167.1,No
+RPA-00152,2026-03-09,IT Support,UK,Invoice Processing,Medium,Bot_2,Mon,233,23.44,17.87,2,41.9,1.0,284.4,Yes
+RPA-00451,2026-01-18,Order Processing,US,Order Validation,Low,Bot_3,Thu,258,15.0,13.35,0,,17.7,,Yes
+RPA-00035,2026-02-27,IT Support,UK,Order Validation,High,Bot_2,Fri,86,23.74,26.55,6,58.8,37.4,134.0,No
+RPA-00371,2026-04-20,Order Processing,UK,Invoice Processing,High,Bot_6,Fri,126,28.2,15.26,3,52.1,72.8,189.3,No
+RPA-00521,2026-01-28,Order Processing,UK,Invoice Processing,Low,Bot_8,Tue,172,17.34,7.02,1,38.3,55.5,156.4,Yes
+RPA-00096,2026-01-05,Finance,APAC,Invoice Processing,Low,Bot_8,Fri,141,10.04,14.83,1,42.4,163.2,,Yes
+RPA-00462,2026-01-07,Finance,UK,Reconciliation,Medium,Bot_6,Wed,197,20.02,10.74,5,55.9,10.9,244.4,Yes
+RPA-00087,2026-04-06,HR,US,Email Triage,Medium,Bot_9,Wed,164,22.79,16.7,3,44.8,15.5,198.5,No
+RPA-00171,2026-04-02,Finance,UK,Invoice Processing,Low,Bot_9,Thu,240,7.75,20.95,1,47.1,48.5,256.6,Yes
+RPA-00014,2026-01-31,Customer Service,UK,Order Validation,Medium,Bot_10,Wed,210,21.72,28.09,1,,31.7,257.9,Yes
+RPA-00453,2026-03-09,Procurement,UK,Data Entry,High,Bot_1,Fri,140,24.36,14.45,3,67.4,83.9,,No
+RPA-00008,2026-01-11,HR,APAC,Reconciliation,Low,Bot_6,Fri,211,10.56,25.52,1,44.4,183.9,203.7,No
+RPA-00239,2026-02-26,Order Processing,UK,Report Generation,Low,Bot_1,Tue,183,6.48,,3,38.9,95.4,198.1,No
+RPA-00356,2026-04-16,Customer Service,US,Invoice Processing,Medium,Bot_4,Mon,187,20.57,9.97,5,58.3,4.1,239.3,Yes
+RPA-00449,2026-03-27,,APAC,Report Generation,High,Bot_12,Mon,98,20.74,17.44,3,43.4,61.3,161.4,No
+RPA-00508,2026-05-05,Procurement,UK,Report Generation,Low,Bot_5,Thu,299,15.32,10.82,1,38.4,0.8,282.8,Yes
+RPA-00235,2026-05-14,Finance,US,Data Entry,Low,Bot_6,Mon,152,13.48,20.82,0,56.5,56.2,142.6,Yes
+RPA-00598,2026-01-13,Order Processing,APAC,Order Validation,Low,Bot_11,Fri,171,16.36,23.53,1,45.1,13.2,153.9,Yes
+RPA-00032,2026-01-27, procurement ,APAC,Data Entry,Low,Bot_8,Tue,158,17.03,6.41,0,33.0,20.6,138.4,Yes
+RPA-00406,2026-04-18,Order Processing,UK,Order Validation,Low,Bot_8,Fri,165,12.83,4.74,3,48.7,21.2,163.8,No
+RPA-00070,2026-03-07,Order Processing,UK,Report Generation,Medium,Bot_3,Tue,204,21.52,17.08,1,45.5,100.6,246.8,No
+RPA-00458,2026-03-16,Customer Service,APAC,Email Triage,Low,Bot_5,Wed,212,14.07,20.41,1,58.6,42.6,199.4,Yes
+RPA-00437,2026-02-12,Customer Service,US,Email Triage,Medium,Bot_7,Fri,209,21.44,18.58,3,49.2,4.0,254.3,No
+RPA-00608,2026-02-07,HR,US,Invoice Processing,Low,Bot_4,Wed,162,17.17,4.42,1,45.9,2.2,146.2,Yes
+RPA-00012,2026-04-18,Procurement,APAC,Reconciliation,High,Bot_7,Tue,238,27.04,21.49,5,40.8,6.7,368.5,No
+RPA-00040,2026-05-28,Procurement,APAC,Email Triage,Low,Bot_4,Wed,233,12.5,11.27,1,29.3,100.9,231.0,Yes
+RPA-00176,2026-02-21,Procurement,US,Reconciliation,Medium,Bot_8,Tue,150,18.28,11.28,2,57.2,16.3,188.5,Yes
+RPA-00195,2026-05-17,HR,UK,Email Triage,Medium,Bot_5,Fri,146,18.15,20.94,2,53.9,41.0,191.2,Yes
+RPA-00318,2026-02-06,HR,US,Email Triage,Medium,Bot_10,Thu,193,18.49,17.72,2,44.5,40.0,257.9,No
+RPA-00226,2026-04-29,Finance,US,EMAIL TRIAGE,Low,Bot_10,Wed,214,10.88,18.46,3,60.6,0.2,219.0,Yes
+RPA-00287,2026-04-06,IT Support,UK,Order Validation,Low,Bot_8,Tue,139,16.07,15.31,2,61.2,249.6,129.9,No
+RPA-00277,2026-05-05,IT Support,APAC,Report Generation,Low,Bot_7,Fri,235,82.19999999999999,21.0,2,30.7,34.2,255.5,Yes
+RPA-00606,2026-02-23,IT Support,US,Invoice Processing,Low,Bot_12,Wed,221,,9.29,1,31.3,59.8,205.3,Yes
+RPA-00410,2026-02-19,IT Support,US,Reconciliation,Medium,Bot_1,Wed,46,19.61,35.63,3,62.0,33.2,61.2,No
+RPA-00431,2026-04-24,HR,UK,Email Triage,Low,Bot_5,Wed,178,12.87,8.73,1,24.8,50.4,171.5,No
+RPA-00403,2026-03-12,Order Processing,US,Data Entry,Low,Bot_3,Fri,231,11.78,22.34,1,29.0,2.5,229.1,Yes
+RPA-00461,2026-05-19,HR,APAC,Order Validation,Low,Bot_6,Thu,278,9.08,15.4,1,53.0,57.5,289.3,Yes
+RPA-00210,2026-03-12,Finance,APAC,Order Validation,High,Bot_11,Wed,136,32.2,17.03,7,55.2,66.2,198.2,No
+RPA-00600,2026-04-01,Order Processing,US,Email Triage,Medium,Bot_9,Wed,137,21.87,15.18,1,63.2,73.2,,No
+RPA-00249,2026-01-21, customer service ,APAC,Report Generation,Medium,Bot_10,Wed,218,22.08,29.79,2,34.0,24.4,270.4,Yes
+RPA-00497,2026-06-04,IT Support,US,Email Triage,High,Bot_1,Wed,87,29.6,,5,70.5,34.7,128.1,No
+RPA-00225,2026-03-01,Order Processing,APAC,Order Validation,Medium,Bot_4,Tue,149,22.11,22.11,3,57.2,11.2,,No
+RPA-00027,2026-01-07,HR,APAC,Order Validation,Low,Bot_5,Thu,183,,15.77,1,,0.6,178.5,Yes
+RPA-00465,2026-03-31,Procurement,APAC,Reconciliation,Low,Bot_3,Tue,227,13.52,15.48,2,37.3,33.0,212.3,Yes
+RPA-00094,2026-01-17,IT Support,US,Order Validation,Low,Bot_1,Mon,299,12.77,44.77,1,38.9,24.3,298.6,No
+RPA-00600,2026-04-01,Order Processing,US,Email Triage,Medium,Bot_9,Wed,137,21.87,15.18,1,63.2,73.2,,No
+RPA-00236,2026-04-05,Finance,US,Email Triage,High,Bot_1,Fri,60,26.39,13.86,1,55.2,7.2,89.7,No
+RPA-00202,2026-03-31,Customer Service,APAC,Data Entry,High,Bot_3,Wed,110,28.99,26.5,4,58.7,16.3,,No
+RPA-00619,2026-04-28,Finance,UK,Reconciliation,Medium,Bot_8,Thu,139,19.78,17.24,3,48.9,33.2,178.0,Yes
+RPA-00450,2026-02-01,Procurement,US,Data Entry,Medium,Bot_12,Fri,125,17.57,14.3,3,55.2,99.0,163.0,No
+RPA-00471,2026-01-05,IT Support,UK,Report Generation,High,Bot_5,Mon,210,17.63,15.13,3,71.0,40.2,354.1,No
+RPA-00568,2026-05-04,HR,US,Order Validation,Low,Bot_3,Mon,233,15.94,14.82,1,34.5,10.8,218.3,Yes
+RPA-00112,2026-03-05,Customer Service,UK,Invoice Processing,High,Bot_3,Mon,216,26.88,14.13,5,53.1,17.2,344.2,No
+RPA-00399,2026-05-28, procurement ,APAC,Email Triage,Medium,Bot_5,Mon,175,16.93,31.33,2,51.6,5.4,222.6,Yes
+RPA-00186,2026-02-17,HR,UK,Order Validation,Medium,Bot_5,Tue,198,19.77,13.0,1,58.9,140.7,260.0,No
+RPA-00170,2026-05-22,Finance,US,Data Entry,Low,Bot_8,Mon,229,14.51,12.92,4,24.2,3.3,215.7,No
+RPA-00348,2026-05-20,IT Support,US,INVOICE PROCESSING,Low,Bot_5,Wed,220,18.23,14.06,2,7.1,6.0,211.2,Yes
+RPA-00083,2026-05-07,Order Processing,UK,Invoice Processing,High,Bot_1,Mon,141,28.02,26.48,4,63.5,42.1,220.1,Yes
+RPA-00545,2026-05-14,Order Processing,US,Reconciliation,Medium,Bot_1,Tue,130,19.35,7.17,2,59.4,60.1,,No
+RPA-00444,2026-05-22,HR,US,Reconciliation,Medium,Bot_8,Wed,256,20.83,12.22,2,29.1,5.6,326.2,Yes
+RPA-00234,2026-02-22,ORDER PROCESSING,APAC,Invoice Processing,Low,Bot_8,Fri,188,13.8,12.27,22,51.7,29.3,174.1,Yes
+RPA-00293,2026-05-20,Order Processing,US,Email Triage,Medium,Bot_5,Thu,140,19.16,8.8,1,49.7,13.5,177.8,Yes
+RPA-00294,2026-04-30,HR,US,Data Entry,Low,Bot_2,Wed,270,16.05,27.93,1,35.5,85.0,248.1,Yes
+RPA-00385,2026-01-20,Finance,US,Report Generation,High,Bot_2,Mon,242,30.01,20.17,6,66.3,5.6,357.7,No
+RPA-00217,2026-02-07,FINANCE,US,Invoice Processing,Low,Bot_5,Tue,229,12.13,6.91,0,46.0,20.9,226.0,Yes
+RPA-00612,2026-04-19,IT Support,APAC,Order Validation,High,Bot_2,Tue,81,29.98,14.36,4,83.4,14.8,117.2,No
+RPA-00570,2026-04-28,Order Processing,US,Invoice Processing,Low,Bot_1,Tue,227,10.38,22.68,1,48.0,38.9,235.3,Yes
+RPA-00136,2026-03-14,Finance,APAC,Data Entry,Medium,Bot_7,Tue,184,19.05,7.27,4,47.4,38.4,237.8,Yes
+RPA-00463,2026-02-11,HR,UK,Data Entry,Low,Bot_4,Fri,230,11.55,,0,,2.3,232.3,Yes
+RPA-00432,2026-03-21,HR,US,Reconciliation,Low,Bot_1,Tue,206,13.94,15.32,1,44.5,3.6,209.7,Yes
+RPA-00550,2026-01-13,Customer Service,US,Report Generation,Medium,Bot_8,Tue,147,17.76,25.36,2,51.9,22.7,197.3,No
+RPA-00259,2026-03-30,Finance,UK,Report Generation,Medium,Bot_8,Tue,213,19.88,17.15,3,59.6,51.1,275.5,No
+RPA-00323,2026-02-16,Procurement,UK,Reconciliation,Medium,Bot_4,Wed,159,14.59,21.82,3,54.6,86.1,214.3,No
+RPA-00433,2026-03-20,Finance,US,Data Entry,Medium,Bot_5,Mon,143,14.61,27.97,2,35.6,12.1,195.1,Yes
+RPA-00468,2026-04-05,Customer Service,UK,Order Validation,Low,Bot_9,Mon,191,14.58,28.26,2,32.1,48.5,181.8,Yes
+RPA-00565,2026-01-08,Procurement,APAC,Invoice Processing,Medium,Bot_8,Mon,207,21.71,19.12,1,75.2,28.5,253.0,Yes
+RPA-00427,2026-04-03,HR,APAC,Order Validation,Low,Bot_4,Thu,183,13.05,13.51,2,45.6,10.0,178.2,No
+RPA-00198,2026-05-15,IT Support,US,Data Entry,Low,Bot_1,Tue,137,16.8,4.77,0,51.4,33.2,,No
+RPA-00596,2026-03-21,Finance,US,Reconciliation,High,Bot_9,Fri,135,25.89,26.06,7,80.0,27.8,210.6,No
+RPA-00029,2026-03-28,Procurement,UK,Email Triage,Medium,Bot_12,Thu,202,19.37,15.19,5,73.8,92.5,264.0,No
+RPA-00299,2026-05-30,Customer Service,APAC,Data Entry,High,Bot_2,Thu,100,25.93,12.69,2,51.9,14.4,162.0,Yes
+RPA-00015,2026-04-20,IT Support,US,Email Triage,Medium,Bot_9,Thu,122,17.38,17.26,3,61.3,43.5,161.0,No
+RPA-00486,2026-02-23,Finance,US,Order Validation,Medium,Bot_2,Tue,177,20.85,22.21,3,39.0,4.2,222.7,Yes
+RPA-00007,2026-03-21,HR,US,Reconciliation,Medium,Bot_2,Thu,224,19.72,16.45,5,48.2,13.9,282.5,No
+RPA-00525,2026-01-17,Order Processing,US,Email Triage,Low,Bot_4,Fri,212,14.78,16.31,0,45.8,33.4,195.9,Yes
+RPA-00363,2026-02-19,,UK,Email Triage,Medium,Bot_11,Wed,160,,16.57,2,51.5,80.4,202.9,No
+RPA-00126,2026-02-03,IT SUPPORT,APAC,Order Validation,Low,Bot_6,Tue,153,12.68,8.36,3,33.9,3.3,141.4,No
+RPA-00336,2026-03-17,Finance,UK,Report Generation,Medium,Bot_6,Tue,137,18.2,7.77,2,36.9,68.4,177.1,Yes
+RPA-00477,2026-02-07,Order Processing,US,Data Entry,Low,Bot_12,Fri,220,13.38,5.76,0,34.6,91.8,221.9,Yes
+RPA-00572,2026-01-08,IT Support,APAC,Email Triage,Medium,Bot_9,Thu,174,11.77,26.36,1,88.6,31.0,241.6,No
+RPA-00464,2026-03-22,Customer Service,UK,Report Generation,Medium,Bot_1,Thu,195,20.1,31.32,2,,2.0,237.8,Yes
+RPA-00129,2026-02-17,HR,US,Report Generation,Low,Bot_3,Thu,205,14.04,14.59,4,35.8,70.7,197.1,No
+RPA-00081,2026-01-05,Order Processing,APAC,Reconciliation,Low,Bot_5,Wed,191,15.52,7.95,4,23.2,38.6,182.4,Yes
+RPA-00507,2026-02-28,Procurement,APAC,Order Validation,Medium,Bot_5,Fri,172,20.99,28.65,2,42.4,207.6,218.5,No
+RPA-00242,2026-04-01,Customer Service,US,Data Entry,High,Bot_4,Mon,87,23.11,33.62,2,76.2,44.8,134.8,No
+RPA-00379,2026-02-23,IT Support,UK,Email Triage,Low,Bot_10,Fri,287,14.82,14.82,0,51.0,5.9,275.2,Yes
+RPA-00549,2026-03-24,Order Processing,US,Invoice Processing,Medium,Bot_11,Wed,242,20.66,21.84,1,51.4,30.5,295.7,No
+RPA-00412,2026-02-10,Customer Service,US,Reconciliation,Low,Bot_9,Wed,226,10.06,5.52,1,77.3,29.1,229.3,Yes
+RPA-00392,2026-03-17,HR,US,Email Triage,High,Bot_8,Thu,73,21.27,15.94,3,58.4,10.0,118.2,Yes
+RPA-00260,2026-03-19,Procurement,APAC,Data Entry,Low,Bot_6,Mon,176,15.02,33.16,3,49.6,17.7,161.5,Yes
+RPA-00529,2026-03-04,Customer Service,US,Reconciliation,Low,Bot_2,Fri,221,16.66,12.76,0,36.2,12.9,203.0,Yes
+RPA-00361,2026-03-10,Order Processing,US,Invoice Processing,Low,Bot_12,Wed,280,16.63,21.42,0,49.8,9.5,252.0,Yes
+RPA-00325,2026-04-11,Finance,UK,Email Triage,Medium,Bot_12,Wed,134,20.29,22.37,5,44.8,4.4,177.2,Yes
+RPA-00199,2026-01-12,IT Support,US,Data Entry,Medium,Bot_7,Mon,196,20.66,6.17,2,64.9,109.1,252.0,No
+RPA-00009,2026-05-19, finance ,US,Reconciliation,Medium,Bot_12,Thu,197,22.85,16.56,2,40.3,28.2,245.9,Yes
+RPA-00540,2026-03-31,HR,UK,Order Validation,High,Bot_11,Thu,115,23.81,,1,72.4,68.7,184.4,No
+RPA-00132,2026-04-12,Order Processing,APAC,Data Entry,Low,Bot_4,Mon,269,15.21,26.41,4,30.2,34.2,258.5,Yes
+RPA-00290,2026-05-27,Customer Service,US,Reconciliation,Medium,Bot_10,Fri,149,23.82,16.03,3,44.2,26.5,180.3,Yes
+RPA-00201,2026-04-21,Procurement,US,REPORT GENERATION,High,Bot_4,Thu,99,31.8,36.34,2,52.4,60.6,143.7,Yes
+RPA-00288,2026-02-16,Customer Service,UK,Data Entry,High,Bot_1,Thu,81,31.24,27.57,2,56.1,36.1,122.5,No
+RPA-00566,2026-04-25,Procurement,US,Email Triage,Medium,Bot_9,Wed,154,19.52,23.3,3,39.5,4.8,194.6,No
+RPA-00575,2026-01-19,Finance,US,Report Generation,High,Bot_3,Wed,8,28.0,32.55,1,43.4,2.4,10.8,Yes
+RPA-00285,2026-03-28,Order Processing,US,Report Generation,Low,Bot_1,Thu,169,11.84,18.61,1,40.4,18.1,165.4,Yes
+RPA-00531,2026-03-28,Order Processing,US,Invoice Processing,Low,Bot_12,Wed,197,11.71,17.65,3,39.2,7.9,192.3,Yes
+RPA-00581,2026-05-22,Order Processing,APAC,Order Validation,High,Bot_8,Tue,133,28.26,13.38,2,73.6,83.6,203.9,No
+RPA-00402,2026-05-19,IT Support,APAC,Email Triage,Low,Bot_2,Fri,247,13.83,12.89,4,53.1,125.1,,No
+RPA-00315,2026-02-23,Customer Service,UK,INVOICE PROCESSING,Medium,Bot_1,Fri,98,19.33,15.1,2,43.8,49.0,129.7,No
+RPA-00517,2026-03-21,Procurement,US,Order Validation,Low,Bot_4,Tue,234,13.37,4.63,2,44.1,48.3,225.4,Yes
+RPA-00587,2026-03-05,Customer Service,US,Order Validation,Low,Bot_4,Fri,227,18.94,35.04,3,33.7,57.3,196.2,No
+RPA-00209,2026-02-01,Finance,UK,Report Generation,Medium,Bot_7,Thu,202,23.22,31.82,6,41.0,90.4,250.6,No
+RPA-00552,2026-03-24,Customer Service,US,Data Entry,Medium,Bot_3,Thu,225,23.35,22.09,3,36.0,38.8,269.7,Yes
+RPA-00414,2026-02-06,Customer Service,US,Invoice Processing,Medium,Bot_6,Mon,218,18.62,16.14,3,37.6,64.4,279.9,No
+RPA-00429,2026-01-17,HR,US,Data Entry,Low,Bot_2,Thu,194,15.5,13.49,3,39.5,41.5,195.8,Yes
+RPA-00166,2026-01-08,IT Support,US,Report Generation,Medium,Bot_2,Mon,146,19.29,13.29,3,60.6,2.7,186.7,No
+RPA-00562,2026-03-20,IT Support,US,Email Triage,Medium,Bot_1,Tue,120,25.73,28.9,2,28.6,24.1,145.7,No
+RPA-00415,2026-05-03,,UK,Report Generation,Low,Bot_2,Mon,186,14.72,20.64,0,32.9,19.2,186.8,Yes
+RPA-00559,2026-02-18,Order Processing,APAC,Email Triage,High,Bot_7,Wed,231,26.42,25.34,5,69.3,20.9,360.2,Yes
+RPA-00527,2026-03-21,Order Processing,US,Order Validation,Low,Bot_1,Wed,232,17.7,21.51,2,41.3,73.2,212.2,Yes
+RPA-00222,2026-02-08,HR,US,Data Entry,Medium,Bot_2,Tue,153,,7.51,3,43.8,2.1,195.0,Yes
+RPA-00375,2026-01-26,Order Processing,APAC,Email Triage,Medium,Bot_7,Thu,159,20.05,20.02,0,33.3,19.6,199.0,Yes
+RPA-00604,2026-05-25,Order Processing,UK,Email Triage,Medium,Bot_11,Thu,191,18.11,46.47,3,41.6,1.8,254.4,Yes
+RPA-00062,2026-05-14,Order Processing,US,Email Triage,Low,Bot_1,Tue,227,13.54,18.61,1,51.9,124.2,220.3,Yes
+RPA-00310,2026-05-21,Finance,US,Email Triage,Low,Bot_11,Wed,163,18.8,20.23,2,48.0,74.0,151.9,Yes
+RPA-00304,2026-05-05,Finance,APAC,Invoice Processing,High,Bot_1,Mon,60,27.22,28.38,3,63.3,59.4,94.9,No
+RPA-00069,2026-04-25, finance ,US,Report Generation,High,Bot_8,Fri,150,28.66,9.66,3,59.0,12.2,224.8,No
+RPA-00488,2026-05-07,Procurement,US,Data Entry,Medium,Bot_3,Thu,156,20.63,19.79,2,57.0,42.6,184.2,No
+RPA-00182,2026-02-15,Customer Service,US,Data Entry,High,Bot_1,Fri,123,27.63,25.25,4,68.4,19.6,189.2,No
+RPA-00255,2026-03-03,Order Processing,US,Invoice Processing,Low,Bot_3,Mon,238,148.2,13.32,2,63.1,105.5,235.4,No
+RPA-00584,2026-05-11,IT Support,APAC,Report Generation,Low,Bot_11,Wed,188,10.4,24.95,0,22.1,3.5,187.1,Yes
+RPA-00155,2026-03-12,Order Processing,UK,Order Validation,Low,Bot_6,Mon,212,8.35,17.44,2,37.2,80.9,230.2,Yes
+RPA-00532,2026-03-02,Order Processing,UK,Order Validation,Low,Bot_3,Thu,190,,9.63,2,25.3,42.4,199.4,No
+RPA-00404,2026-03-27,IT Support,US,Email Triage,Low,Bot_4,Fri,262,12.63,7.07,3,45.7,50.7,256.4,No
+RPA-00324,2026-03-10,Finance,UK,Email Triage,Low,Bot_10,Tue,166,21.59,19.09,3,44.0,35.8,141.2,Yes
+RPA-00491,2026-03-27,IT Support,US,Order Validation,Medium,Bot_1,Tue,244,,22.92,0,46.0,3.8,314.5,Yes
+RPA-00044,2026-04-19,Order Processing,UK,Invoice Processing,Low,Bot_5,Tue,192,13.84,15.87,3,35.3,51.5,185.1,Yes
+RPA-00047,2026-04-22,Finance,UK,Invoice Processing,Medium,Bot_8,Thu,140,21.49,25.84,3,48.1,19.1,167.5,No
+RPA-00052,2026-02-10,IT Support,APAC,INVOICE PROCESSING,Medium,Bot_6,Fri,158,15.89,10.6,0,47.0,12.7,,Yes
+RPA-00278,2026-01-12,Finance,US,Order Validation,Low,Bot_2,Tue,252,9.47,14.68,2,68.5,3.0,,Yes
+RPA-00022,2026-04-26,Finance,APAC,Report Generation,Low,Bot_4,Thu,183,20.31,8.69,1,43.4,67.9,155.9,No
+RPA-00066,2026-01-15,IT Support,APAC,Reconciliation,High,Bot_6,Wed,107,27.94,15.58,2,46.2,25.4,168.6,No
+RPA-00262,2026-04-25,Finance,UK,Reconciliation,Low,Bot_11,Wed,161,11.94,6.77,22,48.9,41.5,163.1,Yes
+RPA-00265,2026-01-10,Customer Service,APAC,Reconciliation,High,Bot_12,Fri,113,27.73,16.56,3,59.7,2.2,172.7,No
+RPA-00303,2026-04-25,HR,US,Invoice Processing,Low,Bot_7,Thu,256,15.73,15.54,0,35.9,191.5,243.9,No
+RPA-00213,2026-01-05,Customer Service,APAC,Invoice Processing,Low,Bot_9,Wed,239,14.66,13.16,0,45.6,50.4,230.7,Yes
+RPA-00116,2026-05-06,Finance,US,Email Triage,High,Bot_8,Tue,82,26.43,23.08,5,68.9,18.0,132.7,No
+RPA-00546,2026-01-10,Customer Service,UK,Data Entry,Low,Bot_12,Tue,171,12.82,17.31,1,71.8,79.2,168.4,No
+RPA-00024,2026-01-30,Order Processing,US,Order Validation,Low,Bot_1,Wed,221,12.59,34.23,3,54.5,41.2,218.4,No
+RPA-00073,2026-03-29,HR,US,Reconciliation,Low,Bot_7,Tue,210,16.13,5.46,0,61.2,60.3,194.4,Yes
+RPA-00335,2026-04-20,IT Support,US,Data Entry,Low,Bot_3,Fri,233,8.44,7.97,0,38.2,48.6,,Yes
+RPA-00484,2026-01-27,HR,US,Invoice Processing,High,Bot_3,Thu,158,,15.2,8,49.7,117.8,241.4,No
+RPA-00519,2026-05-12,Procurement,US,Invoice Processing,Low,Bot_11,Mon,206,17.13,,4,51.6,33.1,183.6,Yes
+RPA-00240,2026-04-21,Procurement,US,Report Generation,Medium,Bot_2,Fri,137,16.07,30.48,1,47.1,52.3,180.3,No
+RPA-00469,2026-01-08,Finance,UK,Email Triage,Medium,Bot_5,Thu,204,21.94,8.39,1,,0.2,252.4,Yes
+RPA-00314,2026-03-25,HR,APAC,Report Generation,Low,Bot_6,Wed,188,18.48,15.19,1,50.4,39.9,165.3,No
+RPA-00502,2026-05-12,Procurement,US,Order Validation,Low,Bot_9,Thu,265,12.92,11.9,2,49.9,23.9,261.9,Yes
+RPA-00589,2026-05-09,Finance,APAC,Data Entry,Medium,Bot_2,Fri,145,16.52,14.52,2,,66.0,195.5,Yes
+RPA-00447,2026-01-15,HR,US,Data Entry,Low,Bot_3,Mon,186,14.31,18.74,3,33.0,1.4,184.3,No
+RPA-00617,2026-02-25,IT Support,US,Invoice Processing,Low,Bot_4,Wed,142,15.55,12.86,0,21.4,28.5,119.2,Yes
+RPA-00537,2026-06-01,HR,US,Email Triage,Low,Bot_2,Fri,213,12.53,3.62,1,44.4,43.3,208.1,Yes
+RPA-00435,2026-03-07,Finance,US,Invoice Processing,Low,Bot_1,Tue,223,14.09,29.61,2,31.6,126.5,218.5,No
+RPA-00146,2026-01-11,FINANCE,UK,Email Triage,Medium,Bot_7,Thu,96,19.98,37.25,1,49.0,97.0,120.5,No
+RPA-00233,2026-05-17,Customer Service,APAC,Data Entry,Low,Bot_2,Wed,185,13.53,9.28,1,38.3,74.2,191.7,No
+RPA-00418,2026-05-05,,APAC,Email Triage,High,Bot_2,Tue,208,33.32,41.56,5,52.9,17.5,296.6,No
+RPA-00158,2026-03-12,Procurement,US,Report Generation,High,Bot_2,Tue,104,27.51,18.94,1,69.0,67.9,163.8,No
+RPA-00564,2026-03-17,Order Processing,APAC,Invoice Processing,Low,Bot_4,Fri,227,15.54,27.48,1,61.4,0.4,203.1,Yes
+RPA-00003,2026-04-28,Finance,APAC,Email Triage,Low,Bot_4,Tue,237,11.6,11.88,1,35.3,290.4,236.9,No
+RPA-00296,2026-03-23,Procurement,US,Order Validation,Medium,Bot_9,Mon,189,19.99,22.03,3,42.7,53.6,237.5,No
+RPA-00573,2026-06-04,HR,US,RECONCILIATION,Medium,Bot_9,Thu,197,19.68,20.76,4,36.4,143.5,248.1,Yes
+RPA-00080,2026-04-13,HR,US,Data Entry,High,Bot_8,Mon,164,30.73,14.15,4,63.4,39.9,236.9,No
+RPA-00344,2026-03-28,HR,US,Email Triage,High,Bot_11,Tue,134,26.63,19.82,4,79.5,72.2,205.6,No
+RPA-00393,2026-04-09,Customer Service,US,Order Validation,Medium,Bot_9,Mon,153,23.93,13.03,2,44.2,1.9,184.8,No
+RPA-00382,2026-01-29,Procurement,UK,Reconciliation,Low,Bot_4,Wed,209,7.61,13.35,2,36.3,66.9,231.7,Yes
+RPA-00163,2026-04-09,Customer Service,US,Reconciliation,Low,Bot_1,Mon,164,12.61,31.52,1,45.8,79.5,159.2,No
+RPA-00057,2026-05-05, hr ,US,Reconciliation,Medium,Bot_8,Mon,151,19.13,17.11,1,70.2,6.4,196.5,Yes
+RPA-00206,2026-03-31,IT Support,APAC,Data Entry,Medium,Bot_7,Mon,125,22.02,16.99,2,39.5,106.6,159.5,No
+RPA-00425,2026-03-08, finance ,US,Report Generation,Low,Bot_4,Mon,193,17.3,11.64,1,38.9,49.6,178.8,No
+RPA-00365,2026-04-03,Order Processing,UK,Report Generation,Low,Bot_5,Fri,234,18.83,10.93,1,42.9,2.2,196.1,Yes
+RPA-00438,2026-04-14,Order Processing,UK,Report Generation,High,Bot_9,Thu,145,26.82,27.33,3,63.7,153.6,230.9,No
+RPA-00593,2026-01-25,Order Processing,APAC,Report Generation,Low,Bot_2,Tue,209,15.19,22.63,1,35.6,92.9,,Yes
+RPA-00551,2026-01-27,Procurement,APAC,Reconciliation,Low,Bot_5,Fri,162,7.91,19.09,2,60.3,9.6,167.7,No
+RPA-00554,2026-02-13,Customer Service,APAC,Reconciliation,Low,Bot_5,Thu,157,12.22,15.99,3,43.0,28.4,150.0,No
+RPA-00041,2026-05-04,IT Support,US,Invoice Processing,Medium,Bot_10,Wed,151,20.93,13.54,5,51.1,0.6,190.4,No
+RPA-00131,2026-03-30,Customer Service,UK,Reconciliation,Medium,Bot_6,Wed,191,23.55,33.68,1,45.3,15.4,232.0,Yes
+RPA-00592,2026-05-05,Order Processing,US,Data Entry,High,Bot_2,Wed,42,31.42,43.78,5,68.8,167.3,75.9,No
+RPA-00151,2026-05-18,Order Processing,APAC,Reconciliation,Low,Bot_3,Fri,250,15.22,10.84,0,29.4,42.7,239.2,Yes
+RPA-00383,2026-05-26,IT Support,US,Report Generation,Low,Bot_1,Thu,176,14.44,11.66,0,28.7,55.7,169.5,No
+RPA-00059,2026-01-13,Customer Service,US,Order Validation,High,Bot_12,Fri,113,21.42,14.58,5,72.2,141.5,186.7,No
+RPA-00350,2026-04-03,Order Processing,US,Data Entry,Low,Bot_3,Thu,211,13.85,13.94,0,32.8,41.6,203.7,Yes
+RPA-00114,2026-03-24,HR,US,Reconciliation,Medium,Bot_12,Mon,162,20.07,19.43,1,46.3,8.3,209.2,Yes
+RPA-00039,2026-03-29,Finance,US,Report Generation,Medium,Bot_3,Tue,171,26.26,9.7,1,36.6,17.6,193.1,Yes
+RPA-00211,2026-03-18,Order Processing,APAC,Invoice Processing,Low,Bot_4,Tue,198,,19.41,0,61.1,9.2,191.2,Yes
+RPA-00251,2026-05-13,HR,US,Order Validation,Low,Bot_3,Mon,230,16.71,14.24,0,55.6,131.6,207.8,No
+RPA-00117,2026-04-01,Finance,UK,Invoice Processing,High,Bot_3,Fri,135,24.28,15.3,5,37.9,2.2,211.2,No
+RPA-00478,2026-05-23,Order Processing,US,Reconciliation,Medium,Bot_8,Wed,179,21.89,18.45,1,,0.5,219.5,Yes
+RPA-00001,2026-05-22,Customer Service,UK,Order Validation,Medium,Bot_1,Fri,186,21.02,21.7,5,41.9,30.5,228.7,Yes
+RPA-00261,2026-01-24,IT Support,UK,Report Generation,Medium,Bot_2,Tue,213,19.53,,6,48.6,27.8,270.3,No
+RPA-00381,2026-01-15,Procurement,APAC,Data Entry,Medium,Bot_10,Mon,165,19.43,24.0,0,39.4,106.0,216.1,Yes
+RPA-00071,2026-03-20,IT Support,APAC,Report Generation,Low,Bot_6,Wed,201,15.29,5.91,0,46.3,146.9,189.2,Yes
+RPA-00512,2026-02-20,HR,US,Data Entry,High,Bot_10,Thu,115,28.47,14.6,4,21.6,31.5,175.6,Yes
+RPA-00614,2026-05-14,IT Support,UK,Data Entry,Low,Bot_6,Tue,226,11.19,59.82,3,34.6,143.3,228.9,No
+RPA-00173,2026-03-29,HR,US,Email Triage,Low,Bot_3,Wed,212,13.4,17.74,3,27.5,19.6,205.5,Yes
+RPA-00505,2026-02-09,Order Processing,US,Report Generation,High,Bot_9,Fri,83,22.38,15.59,3,59.0,25.6,134.5,No
+RPA-00283,2026-05-06,Finance,APAC,DATA ENTRY,Medium,Bot_11,Fri,139,22.49,9.92,5,70.3,24.9,174.2,No
+RPA-00594,2026-02-04,Finance,US,REPORT GENERATION,Low,Bot_5,Fri,267,,18.51,1,45.0,38.2,276.2,Yes
+RPA-00555,2026-01-26,Order Processing,US,Reconciliation,High,Bot_3,Tue,136,,21.77,2,69.0,3.1,214.5,No
+RPA-00586,2026-03-07,Order Processing,US,Reconciliation,Low,Bot_5,Tue,204,7.72,11.11,2,41.8,35.5,214.5,No
+RPA-00218,2026-05-04,Finance,APAC,Invoice Processing,Medium,Bot_1,Thu,190,28.64,42.94,5,81.3,41.9,209.4,No
+RPA-00180,2026-01-28,ORDER PROCESSING,US,Data Entry,Medium,Bot_7,Tue,189,17.11,31.41,3,59.4,79.5,240.7,Yes
+RPA-00445,2026-01-15,IT Support,UK,Report Generation,Medium,Bot_2,Thu,222,22.62,15.18,1,73.1,13.4,,No
+RPA-00248,2026-03-22,HR,UK,Invoice Processing,Medium,Bot_2,Fri,207,14.66,11.84,2,70.7,81.9,274.2,Yes
+RPA-00577,2026-01-24,Finance,APAC,Report Generation,Medium,Bot_10,Thu,85,26.06,11.67,3,52.1,137.4,100.7,No
+RPA-00021,2026-04-01,IT Support,UK,Reconciliation,Medium,Bot_9,Fri,101,25.73,21.74,3,56.4,14.5,124.9,Yes
+RPA-00522,2026-04-15,IT Support,US,Invoice Processing,Low,Bot_10,Wed,202,12.84,,1,34.0,74.1,191.6,Yes
+RPA-00536,2026-01-20,Procurement,UK,Reconciliation,Low,Bot_10,Tue,259,11.38,18.35,2,34.3,51.7,262.2,Yes
+RPA-00258,2026-03-09,FINANCE,US,Invoice Processing,Low,Bot_7,Tue,182,9.95,17.82,1,56.9,12.5,191.7,Yes
+RPA-00267,2026-04-05,HR,US,Invoice Processing,Low,Bot_4,Mon,237,16.79,5.47,2,41.0,115.8,222.2,Yes
+RPA-00016,2026-02-17,,US,Email Triage,Medium,Bot_6,Thu,162,16.03,11.98,2,60.3,11.9,209.2,Yes
+RPA-00616,2026-03-16,Procurement,UK,Order Validation,Medium,Bot_6,Fri,153,18.84,30.6,1,44.5,45.9,188.9,Yes
+RPA-00037,2026-06-01,IT Support,US,Invoice Processing,Medium,Bot_5,Mon,153,15.49,19.22,3,49.7,41.6,204.4,No
+RPA-00413,2026-05-14,Procurement,US,Report Generation,Low,Bot_7,Wed,190,16.55,30.53,2,32.5,1.2,174.6,No
+RPA-00342,2026-01-15,Finance,APAC,Data Entry,Medium,Bot_6,Wed,229,20.23,17.97,1,,9.9,294.4,Yes
+RPA-00571,2026-02-15,Customer Service,US,Data Entry,Medium,Bot_4,Tue,240,11.96,13.45,3,62.0,16.5,331.1,Yes
+RPA-00148,2026-03-05,Order Processing,APAC,Report Generation,Low,Bot_5,Fri,163,7.67,7.29,3,36.7,22.9,180.9,Yes
+RPA-00018,2026-01-25,Order Processing,APAC,Data Entry,High,Bot_12,Mon,80,28.02,44.94,4,65.6,3.9,119.9,No
+RPA-00511,2026-03-18,IT Support,UK,Email Triage,Low,Bot_5,Thu,221,,8.56,0,26.8,11.0,201.6,Yes
+RPA-00077,2026-03-17,IT Support,UK,Report Generation,Low,Bot_2,Wed,193,13.24,12.93,1,29.9,52.1,190.7,Yes
+RPA-00043,2026-03-22,Finance,APAC,Data Entry,Low,Bot_8,Wed,213,11.79,3.12,3,47.7,118.3,212.8,No
+RPA-00494,2026-04-26,Customer Service,US,Reconciliation,Low,Bot_2,Wed,246,15.63,14.22,2,59.3,49.3,235.5,No
+RPA-00123,2026-04-16,Procurement,UK,Data Entry,Medium,Bot_5,Wed,182,22.61,22.43,3,71.5,143.3,219.2,Yes
+RPA-00456,2026-05-23,Order Processing,UK,Reconciliation,High,Bot_6,Wed,167,27.07,42.12,2,72.9,29.7,,No
+RPA-00495,2026-05-07,IT Support,US,Email Triage,Medium,Bot_8,Wed,108,15.81,21.46,1,25.1,10.0,137.2,Yes
+RPA-00135,2026-05-22,IT Support,APAC,Reconciliation,Medium,Bot_2,Wed,197,19.31,14.62,2,47.3,55.4,252.2,Yes
+RPA-00149,2026-02-08,Customer Service,US,Order Validation,Low,Bot_1,Wed,249,13.08,10.0,1,60.2,18.8,256.7,Yes
+RPA-00489,2026-03-02,Finance,APAC,Data Entry,Low,Bot_8,Mon,180,11.93,26.68,2,18.3,80.6,176.9,Yes
+RPA-00157,2026-05-26,Procurement,UK,Order Validation,Medium,Bot_8,Thu,206,241.79999999999998,14.01,6,35.4,38.4,267.6,No
+RPA-00547,2026-06-03,Order Processing,UK,Reconciliation,Low,Bot_5,Wed,125,14.91,19.57,1,25.3,15.2,,Yes
+RPA-00063,2026-05-31,IT Support,US,Report Generation,Low,Bot_6,Mon,147,13.79,15.72,1,58.8,7.6,147.4,Yes
+RPA-00485,2026-01-05,HR,US,Report Generation,Low,Bot_10,Fri,186,11.25,7.48,0,35.5,17.7,180.7,No
+RPA-00067,2026-05-24,Procurement,US,Report Generation,Low,Bot_12,Mon,209,12.47,10.86,1,49.0,12.2,206.6,Yes
+RPA-00301,2026-05-30,IT Support,UK,Reconciliation,Low,Bot_10,Wed,237,10.26,39.5,1,37.9,2.0,244.5,No
+RPA-00232,2026-01-29,Finance,APAC,Invoice Processing,Low,Bot_2,Fri,244,18.06,15.02,1,51.2,13.3,225.4,No
+RPA-00548,2026-05-10,Customer Service,UK,Data Entry,Low,Bot_3,Thu,228,,,1,36.1,76.2,221.1,Yes
+RPA-00492,2026-05-01,Finance,UK,Order Validation,Medium,Bot_2,Mon,161,20.46,39.2,2,49.0,149.9,192.2,No
+RPA-00054,2026-04-15,Order Processing,APAC,Reconciliation,Low,Bot_4,Thu,167,13.99,,2,63.2,2.8,153.7,Yes
+RPA-00224,2026-04-27,Finance,US,Order Validation,Low,Bot_5,Tue,158,12.53,15.19,3,25.6,0.6,159.6,Yes
+RPA-00120,2026-05-29,HR,US,Report Generation,Low,Bot_3,Wed,143,9.1,19.42,3,41.9,8.3,154.8,Yes
+RPA-00544,2026-02-26,Finance,US,Order Validation,Medium,Bot_4,Fri,180,19.38,51.22,2,,3.4,226.6,Yes
+RPA-00422,2026-04-11,Order Processing,UK,Email Triage,Low,Bot_5,Tue,237,17.86,14.76,3,51.1,77.4,218.9,No
+RPA-00105,2026-04-20,IT Support,US,Reconciliation,Low,Bot_3,Mon,212,,27.09,1,56.5,69.6,199.6,Yes
+RPA-00360,2026-02-05,Finance,UK,Order Validation,Low,Bot_3,Thu,247,11.92,8.29,1,42.9,22.1,242.7,Yes
+RPA-00526,2026-05-06,HR,APAC,Invoice Processing,Low,Bot_4,Thu,175,13.0,8.08,1,49.2,56.8,181.3,Yes
+RPA-00347,2026-03-10,Order Processing,US,Reconciliation,Medium,Bot_2,Mon,216,,11.03,4,51.2,29.3,271.8,No
+RPA-00033,2026-03-26,Customer Service,APAC,Report Generation,Low,Bot_1,Tue,287,9.57,6.91,2,57.5,36.1,306.1,No
+RPA-00025,2026-03-11,IT Support,US,Report Generation,Medium,Bot_4,Tue,207,16.18,9.76,1,45.2,131.6,281.3,Yes
+RPA-00439,2026-04-23,Procurement,APAC,Reconciliation,Medium,Bot_6,Tue,196,18.83,12.07,4,55.3,33.7,262.1,No
+RPA-00426,2026-06-03,Finance,US,Email Triage,Low,Bot_1,Tue,178,16.64,16.15,2,56.2,14.8,176.3,No
+RPA-00563,2026-01-25,Order Processing,US,Report Generation,High,Bot_3,Mon,198,26.31,22.08,5,48.9,91.4,308.4,No
+RPA-00368,2026-01-14,Procurement,UK,Data Entry,Low,Bot_9,Tue,153,12.74,14.32,1,47.5,39.5,137.6,Yes
+RPA-00454,2026-03-30,IT Support,APAC,Report Generation,Low,Bot_8,Fri,231,16.95,8.78,4,45.5,44.3,210.1,Yes
+RPA-00405,2026-02-07,Customer Service,UK,Email Triage,High,Bot_12,Fri,97,30.2,40.47,2,64.8,9.5,148.6,Yes
+RPA-00479,2026-03-25,Order Processing,US,Report Generation,Medium,Bot_2,Thu,93,,41.25,2,65.1,0.6,116.2,Yes
+RPA-00237,2026-04-18,Order Processing,US,Invoice Processing,Low,Bot_3,Thu,147,13.07,7.59,3,36.5,25.4,137.4,Yes
+RPA-00387,2026-04-04,Customer Service,US,Order Validation,Low,Bot_3,Fri,247,13.52,19.96,1,18.4,15.0,245.0,Yes
+RPA-00113,2026-04-09,IT Support,US,Order Validation,Low,Bot_3,Tue,278,18.54,11.43,0,28.0,143.1,249.9,Yes
+RPA-00200,2026-01-19,Procurement,US,RECONCILIATION,Low,Bot_2,Tue,172,16.56,,4,36.8,118.3,156.7,No
+RPA-00203,2026-02-09,HR,US,Invoice Processing,Medium,Bot_9,Wed,217,19.68,20.88,3,80.8,86.4,266.6,No
+RPA-00188,2026-04-08,HR,UK,Data Entry,Low,Bot_12,Wed,210,14.58,9.21,4,44.6,35.7,201.1,Yes
+RPA-00601,2026-06-02,Order Processing,US,Report Generation,Medium,Bot_7,Wed,160,22.02,19.63,5,47.1,7.4,191.9,No
+RPA-00102,2026-02-12,Customer Service,US,Email Triage,Low,Bot_10,Wed,184,12.25,5.57,3,36.9,97.7,184.9,No
+RPA-00500,2026-01-06,Finance,UK,Invoice Processing,Medium,Bot_6,Wed,173,19.39,15.13,2,69.5,21.1,228.7,No
+RPA-00089,2026-01-13,Finance,US,Data Entry,Medium,Bot_2,Fri,184,22.49,,1,51.9,85.5,226.6,No
+RPA-00578,2026-04-28,Finance,UK,Order Validation,Medium,Bot_8,Tue,223,18.63,20.28,3,63.0,10.2,286.7,Yes
+RPA-00061,2026-02-21,IT SUPPORT,APAC,Invoice Processing,Medium,Bot_6,Fri,110,20.41,39.07,0,42.0,63.2,139.1,Yes
+RPA-00518,2026-04-15,IT Support,US,Data Entry,Medium,Bot_10,Fri,179,18.83,8.8,1,45.3,5.6,232.5,Yes
+RPA-00523,2026-01-30,Customer Service,APAC,Report Generation,Medium,Bot_5,Wed,210,17.77,12.97,1,46.1,21.8,281.7,Yes
+RPA-00048,2026-04-11,Finance,US,Order Validation,Low,Bot_5,Tue,147,12.92,19.97,3,51.1,104.9,,No
+RPA-00487,2026-04-26,Finance,UK,Email Triage,Medium,Bot_10,Fri,198,21.5,17.86,1,38.9,20.6,248.6,No
+RPA-00322,2026-03-16,Finance,APAC,Reconciliation,Medium,Bot_3,Thu,140,13.36,17.1,2,30.8,35.0,199.5,No
+RPA-00212,2026-04-01,Order Processing,US,Data Entry,Low,Bot_1,Fri,198,13.8,20.56,3,26.5,6.9,192.6,Yes
+RPA-00168,2026-03-12,FINANCE,US,Invoice Processing,Medium,Bot_3,Wed,160,18.75,12.86,3,48.8,11.2,207.9,Yes
+RPA-00423,2026-02-10,IT Support,US,Report Generation,High,Bot_5,Thu,137,24.57,31.8,3,66.1,6.7,218.8,No
+RPA-00590,2026-02-14,Order Processing,US,Email Triage,Medium,Bot_2,Thu,50,19.09,10.54,1,52.4,25.0,66.2,No
+RPA-00561,2026-01-14,Customer Service,US,Reconciliation,Medium,Bot_5,Tue,142,21.84,13.02,3,50.1,26.1,174.2,No
+RPA-00147,2026-03-28,Customer Service,US,DATA ENTRY,Medium,Bot_11,Tue,133,22.26,31.35,1,59.8,14.1,172.8,No
+RPA-00434,2026-01-20,Customer Service,US,Invoice Processing,Low,Bot_9,Wed,278,15.56,10.94,0,35.9,22.5,255.6,Yes
+RPA-00111,2026-05-20,Order Processing,US,Order Validation,Low,Bot_8,Thu,187,13.89,24.99,3,43.9,11.2,182.5,Yes
+RPA-00238,2026-05-13,IT Support,UK,Reconciliation,High,Bot_5,Thu,152,24.65,25.74,2,56.4,26.8,239.7,Yes
+RPA-00097,2026-04-24,Procurement,US,Report Generation,Low,Bot_11,Fri,227,17.37,7.44,0,42.9,24.1,203.7,Yes
+RPA-00475,2026-04-28,Customer Service,US,Reconciliation,Low,Bot_8,Tue,216,14.66,10.35,1,64.6,40.7,201.7,Yes
+RPA-00421,2026-06-04,Order Processing,UK,Invoice Processing,Low,Bot_3,Fri,223,14.02,19.77,1,48.3,15.9,204.5,Yes
+RPA-00279,2026-04-19,Order Processing,UK,Data Entry,Medium,Bot_3,Fri,60,20.93,12.46,2,66.9,6.1,84.9,Yes
+RPA-00620,2026-01-19,Finance,UK,Invoice Processing,Medium,Bot_12,Thu,178,16.04,13.76,6,68.3,25.8,241.9,No
+RPA-00045,2026-01-27,Customer Service,APAC,Data Entry,Medium,Bot_5,Wed,144,18.47,9.94,1,47.6,37.6,189.1,Yes
+RPA-00302,2026-01-28,HR,UK,Invoice Processing,Medium,Bot_6,Wed,216,18.71,31.82,3,63.6,84.3,277.6,No
+RPA-00139,2026-02-07,Order Processing,US,Order Validation,High,Bot_9,Fri,157,24.33,22.34,5,64.8,14.8,257.6,No
+RPA-00263,2026-02-22,Customer Service,APAC,Order Validation,Low,Bot_4,Wed,162,15.05,24.56,2,49.1,19.9,142.7,Yes
+RPA-00395,2026-03-10,Finance,APAC,Data Entry,Low,Bot_7,Thu,237,,16.52,3,45.1,5.7,241.9,No
+RPA-00002,2026-01-23,Procurement,US,Email Triage,Low,Bot_1,Wed,131,13.83,6.86,5,60.5,1.8,135.7,Yes
+RPA-00241,2026-05-18,Order Processing,APAC,Reconciliation,Medium,Bot_11,Tue,215,18.18,10.25,1,66.0,29.7,276.0,Yes
+RPA-00452,2026-03-13,,UK,Reconciliation,Low,Bot_2,Wed,242,15.5,10.39,1,29.4,4.1,215.0,Yes
+RPA-00407,2026-05-04,Finance,APAC,Order Validation,Low,Bot_8,Fri,200,10.33,8.38,1,32.2,0.8,203.8,No
+RPA-00567,2026-01-08,,UK,Data Entry,High,Bot_3,Mon,171,21.89,10.09,1,54.5,29.3,283.9,Yes
+RPA-00602,2026-05-20,Finance,UK,Email Triage,Medium,Bot_4,Mon,148,23.42,14.98,5,45.1,81.8,182.5,No
+RPA-00353,2026-03-19, order processing ,APAC,Order Validation,Medium,Bot_3,Wed,191,22.51,12.8,5,53.3,1.5,237.1,Yes
+RPA-00369,2026-05-26,IT Support,APAC,Reconciliation,Medium,Bot_7,Tue,111,17.2,15.9,0,40.3,3.1,139.5,Yes
+RPA-00154,2026-03-27,IT SUPPORT,APAC,Order Validation,Low,Bot_6,Tue,252,15.88,38.54,1,36.5,250.8,232.9,No
+RPA-00509,2026-04-30,Procurement,UK,Reconciliation,Low,Bot_3,Fri,204,21.28,9.7,1,44.2,16.6,172.0,Yes
+RPA-00181,2026-04-16,Procurement,APAC,Report Generation,High,Bot_11,Thu,81,24.01,16.9,2,50.3,84.6,124.4,No
+RPA-00109,2026-01-10,Procurement,US,Report Generation,Low,Bot_12,Mon,242,14.48,8.84,0,45.3,4.6,237.4,Yes
+RPA-00320,2026-04-13,Order Processing,US,Data Entry,Low,Bot_2,Fri,152,12.92,,4,30.2,9.8,150.0,Yes
+RPA-00535,2026-04-12,HR,US,Data Entry,Low,Bot_5,Fri,190,10.47,9.49,1,52.3,23.8,190.9,Yes
+RPA-00277,2026-05-05,IT Support,APAC,Report Generation,Low,Bot_7,Fri,235,82.19999999999999,21.0,2,30.7,34.2,255.5,Yes
+RPA-00557,2026-01-15,IT Support,US,Email Triage,Medium,Bot_1,Thu,196,16.32,23.71,1,63.8,27.7,257.1,Yes
+RPA-00332,2026-01-13,Order Processing,UK,Order Validation,Medium,Bot_6,Mon,163,18.07,38.03,3,52.3,27.5,208.3,Yes
+RPA-00264,2026-05-14, order processing ,US,Reconciliation,Medium,Bot_9,Tue,144,21.77,16.21,2,38.1,159.5,168.0,No
+RPA-00579,2026-02-25,Finance,UK,Email Triage,Low,Bot_4,Fri,241,17.38,11.22,1,32.0,3.8,220.4,No
+RPA-00384,2026-05-27,IT Support,UK,Email Triage,Medium,Bot_3,Fri,103,20.29,17.13,4,43.0,132.1,118.7,No
+RPA-00138,2026-02-24,IT Support,UK,Reconciliation,Medium,Bot_3,Wed,202,20.15,21.23,1,56.5,8.3,252.5,No
+RPA-00060,2026-02-04,Finance,US,Data Entry,Low,Bot_2,Tue,358,14.07,11.57,1,36.7,16.3,340.5,Yes
+RPA-00398,2026-01-21,Order Processing,US,Invoice Processing,High,Bot_12,Fri,196,26.64,9.87,5,46.1,19.8,291.0,No
+RPA-00004,2026-03-17,IT Support,APAC,Email Triage,Medium,Bot_1,Tue,160,17.65,11.79,2,50.9,60.8,207.9,Yes
+RPA-00289,2026-04-18,Finance,UK,Report Generation,Medium,Bot_8,Fri,183,19.52,15.65,5,41.2,16.1,239.2,Yes
+RPA-00515,2026-02-07,HR,US,Order Validation,Medium,Bot_10,Tue,218,19.23,8.27,4,38.2,8.1,281.1,Yes
+RPA-00424,2026-03-16,Customer Service,UK,Order Validation,Low,Bot_3,Tue,221,15.26,14.6,4,33.1,87.1,214.3,No
+RPA-00276,2026-05-17,IT Support,UK,Reconciliation,Low,Bot_5,Wed,232,7.21,17.61,3,22.4,3.8,244.7,Yes
+RPA-00501,2026-06-04,IT Support,UK,Report Generation,Low,Bot_7,Mon,169,16.62,25.02,3,,14.3,163.1,Yes
+RPA-00480,2026-04-18,Procurement,APAC,Data Entry,Low,Bot_4,Fri,228,,6.22,3,47.2,3.9,,No
+RPA-00611,2026-04-08,HR,UK,Report Generation,Medium,Bot_3,Thu,137,19.23,14.66,1,54.0,3.0,171.5,Yes
+RPA-00140,2026-01-31,Procurement,US,Report Generation,Medium,Bot_5,Wed,108,17.19,18.59,4,70.0,47.3,143.6,No
+RPA-00216,2026-04-01,Customer Service,APAC,Report Generation,Low,Bot_10,Mon,190,14.26,10.62,2,57.4,55.8,183.6,Yes
+RPA-00124,2026-02-28,Finance,UK,Report Generation,Medium,Bot_4,Mon,180,21.67,19.53,3,46.6,20.8,207.7,Yes
+RPA-00061,2026-02-21,IT SUPPORT,APAC,Invoice Processing,Medium,Bot_6,Fri,110,20.41,39.07,0,42.0,63.2,139.1,Yes
+RPA-00605,2026-01-09,,APAC,Email Triage,Medium,Bot_3,Thu,133,18.88,8.55,1,70.0,13.7,180.2,Yes
+RPA-00192,2026-03-14,Finance,US,Reconciliation,Low,Bot_2,Fri,193,14.02,10.78,1,31.9,128.8,187.3,No
+RPA-00370,2026-04-22,HR,US,Order Validation,High,Bot_6,Wed,127,28.27,19.56,1,55.0,109.9,,Yes
+RPA-00364,2026-06-03,Order Processing,APAC,Invoice Processing,High,Bot_10,Fri,93,27.95,19.88,5,81.7,97.3,146.3,No
+RPA-00329,2026-01-05,HR,US,Report Generation,Medium,Bot_2,Thu,150,21.42,23.42,2,58.0,210.0,182.0,Yes
+RPA-00177,2026-04-06,ORDER PROCESSING,UK,Order Validation,Low,Bot_6,Thu,191,15.91,28.56,1,54.3,144.3,174.7,No
+RPA-00106,2026-01-11,Order Processing,US,Report Generation,Medium,Bot_2,Fri,173,19.95,31.68,2,57.1,51.4,222.2,No
+RPA-00580,2026-04-26,Order Processing,UK,Data Entry,High,Bot_12,Tue,58,20.65,15.94,4,43.2,21.3,103.1,No
+RPA-00607,2026-01-12,Procurement,US,Order Validation,Low,Bot_4,Mon,244,9.97,,1,56.9,17.6,255.7,Yes
+RPA-00257,2026-01-08, customer service ,UK,Email Triage,Medium,Bot_1,Tue,107,26.83,11.96,2,59.5,94.1,128.4,No
+RPA-00247,2026-03-07,Order Processing,UK,Report Generation,Low,Bot_4,Mon,248,17.0,15.89,1,30.5,13.2,223.4,Yes
+RPA-00091,2026-01-30,Finance,APAC,Data Entry,Low,Bot_1,Tue,241,18.74,10.5,2,33.1,10.1,208.4,Yes
+RPA-00460,2026-04-03,IT Support,US,Email Triage,Low,Bot_11,Wed,152,14.26,12.72,2,65.4,17.5,133.0,No
+RPA-00595,2026-03-13,Customer Service,UK,Invoice Processing,High,Bot_7,Tue,65,25.48,21.64,3,62.1,6.0,103.0,Yes
+RPA-00520,2026-05-08,Customer Service,UK,Order Validation,Low,Bot_6,Wed,200,14.65,15.27,2,57.4,41.2,192.6,Yes
+RPA-00090,2026-01-05,HR,UK,Email Triage,Low,Bot_3,Tue,280,15.88,5.39,1,50.1,173.3,257.4,No
+RPA-00005,2026-05-04,IT Support,UK,Report Generation,Medium,Bot_5,Fri,193,14.94,9.4,3,51.5,39.1,,Yes
+RPA-00075,2026-01-21,Order Processing,UK,Invoice Processing,Medium,Bot_8,Fri,173,19.05,20.85,3,35.6,59.3,223.4,No
+RPA-00093,2026-01-17,Finance,UK,Data Entry,Low,Bot_9,Fri,168,,14.5,0,36.6,48.3,169.4,Yes
+RPA-00167,2026-05-08,HR,US,Order Validation,Low,Bot_3,Mon,272,14.11,18.83,2,32.2,36.4,263.5,No
+RPA-00250,2026-03-27,IT Support,US,Data Entry,Medium,Bot_4,Fri,161,17.88,23.94,2,39.9,4.2,208.9,No
+RPA-00019,2026-01-28,ORDER PROCESSING,US,Order Validation,Medium,Bot_10,Mon,162,17.37,31.47,1,52.7,30.5,207.3,Yes
+RPA-00185,2026-01-23,IT Support,US,Data Entry,Medium,Bot_7,Thu,179,20.16,9.16,4,56.9,1.6,221.8,No
+RPA-00042,2026-04-24,HR,US,Reconciliation,Medium,Bot_4,Mon,231,19.84,12.91,2,54.2,47.9,289.2,Yes
+RPA-00357,2026-04-24,IT Support,UK,Invoice Processing,Medium,Bot_1,Mon,95,20.33,10.0,0,43.7,49.3,123.0,Yes
+RPA-00467,2026-03-17,IT Support,UK,Data Entry,Medium,Bot_8,Fri,163,17.25,16.74,0,,127.5,213.9,No
+RPA-00506,2026-02-25,Procurement,US,Email Triage,High,Bot_5,Mon,179,24.86,17.77,6,72.3,10.2,284.1,No
+RPA-00143,2026-02-22,Customer Service,US,Report Generation,High,Bot_4,Tue,163,25.46,46.18,5,,21.1,252.7,No
+RPA-00064,2026-03-10,Finance,APAC,Report Generation,Medium,Bot_3,Thu,141,21.66,12.96,4,66.1,80.7,179.3,No
+RPA-00220,2026-02-13,Order Processing,APAC,Email Triage,Medium,Bot_3,Mon,198,19.41,19.72,1,43.5,3.1,252.9,No
+RPA-00196,2026-04-15,Finance,US,Data Entry,Medium,Bot_5,Fri,190,19.3,20.57,3,65.1,37.8,250.0,No
+RPA-00615,2026-01-30,Customer Service,US,Data Entry,High,Bot_6,Mon,80,30.93,25.23,6,45.0,59.0,112.7,No
+RPA-00036,2026-01-12, finance ,UK,Data Entry,Medium,Bot_1,Thu,109,19.38,16.89,1,,25.6,139.8,Yes
+RPA-00524,2026-01-19,Procurement,APAC,Report Generation,Medium,Bot_4,Tue,179,21.91,13.79,1,65.3,64.9,219.0,No
+RPA-00533,2026-01-20,Order Processing,US,Report Generation,High,Bot_2,Mon,97,26.48,13.88,2,77.0,6.6,157.8,No
+RPA-00246,2026-03-20,Finance,US,Data Entry,Medium,Bot_3,Fri,177,26.86,26.25,1,63.9,86.9,205.7,No
+RPA-00108,2026-02-23,Procurement,US,Report Generation,Low,Bot_3,Tue,190,13.43,16.15,3,60.0,43.0,184.3,Yes
+RPA-00345,2026-04-01,Finance,US,Order Validation,Medium,Bot_4,Wed,163,19.93,12.77,4,52.7,52.0,203.0,Yes
+RPA-00541,2026-03-31,Order Processing,UK,Report Generation,High,Bot_5,Wed,171,27.5,26.57,7,46.8,82.9,266.9,No
+RPA-00078,2026-01-29,HR,APAC,Report Generation,Low,Bot_6,Fri,224,,38.74,1,27.9,151.3,201.7,No
+RPA-00378,2026-04-11,Procurement,UK,ORDER VALIDATION,Low,Bot_7,Thu,174,13.9,26.4,1,35.5,23.8,180.8,No
+RPA-00297,2026-01-17,HR,UK,Report Generation,High,Bot_12,Thu,105,25.31,20.98,3,58.3,18.5,169.1,No
+RPA-00503,2026-03-07,Order Processing,US,Report Generation,Low,Bot_2,Mon,180,21.66,4.89,1,41.2,23.3,168.2,No
+RPA-00400,2026-02-19,Procurement,US,Data Entry,Low,Bot_4,Tue,262,14.15,4.43,2,35.2,28.5,257.4,Yes
+RPA-00390,2026-06-03,IT Support,US,Email Triage,Medium,Bot_2,Mon,180,18.53,29.06,1,49.4,23.9,230.6,Yes
+RPA-00306,2026-04-14,Order Processing,US,Email Triage,Low,Bot_6,Thu,350,12.52,5.37,1,43.4,23.0,350.5,Yes
+RPA-00618,2026-03-03,Procurement,US,Order Validation,Medium,Bot_4,Thu,209,20.09,14.71,0,40.5,72.1,262.3,Yes
+RPA-00300,2026-05-24,HR,APAC,Email Triage,Low,Bot_9,Mon,271,16.91,22.34,1,35.4,26.2,243.0,Yes
+RPA-00538,2026-04-12,Customer Service,APAC,Reconciliation,Low,Bot_9,Fri,198,14.57,5.42,2,33.3,24.4,187.5,No
+RPA-00504,2026-05-02,IT Support,US,Order Validation,High,Bot_3,Fri,158,20.74,14.6,1,,1.4,259.8,No
+RPA-00436,2026-03-19,Customer Service,US,Email Triage,High,Bot_5,Fri,77,27.6,19.43,2,81.4,37.8,118.8,Yes
+RPA-00597,2026-04-12,HR,APAC,Report Generation,Medium,Bot_10,Fri,196,20.25,24.46,3,54.2,54.5,254.1,No
+RPA-00319,2026-04-20,Finance,US,Report Generation,Low,Bot_6,Thu,178,10.72,10.31,0,19.9,168.5,177.5,No
+RPA-00391,2026-04-15,IT Support,UK,Report Generation,Low,Bot_6,Tue,266,10.38,5.91,19,53.3,6.2,276.8,No
+RPA-00467,2026-03-17,IT Support,UK,Data Entry,Medium,Bot_8,Fri,163,17.25,16.74,0,,127.5,213.9,No
+RPA-00274,2026-02-05,Order Processing,US,Report Generation,Low,Bot_2,Tue,180,9.31,36.23,1,46.8,7.3,185.9,Yes
+RPA-00165,2026-03-19,Finance,US,Invoice Processing,High,Bot_12,Mon,72,30.62,16.11,2,39.4,2.3,113.3,Yes
+RPA-00327,2026-06-01,PROCUREMENT,US,Invoice Processing,Low,Bot_2,Tue,205,16.12,4.69,1,45.9,123.8,193.0,No
+RPA-00141,2026-04-04,Customer Service,UK,Report Generation,Medium,Bot_11,Mon,141,17.45,40.84,2,43.4,48.5,186.9,Yes
+RPA-00321,2026-02-16, order processing ,UK,Data Entry,High,Bot_11,Thu,87,28.59,10.81,5,,26.3,139.5,No
+RPA-00223,2026-01-06,Finance,US,Report Generation,Low,Bot_1,Mon,315,9.46,19.18,3,57.7,25.6,329.5,Yes
+RPA-00133,2026-03-02,Order Processing,UK,Email Triage,Medium,Bot_2,Fri,156,21.28,13.91,5,55.4,26.6,,No
+RPA-00613,2026-02-15,IT Support,US,Order Validation,High,Bot_11,Fri,93,21.53,31.74,2,61.5,62.9,160.6,No
+RPA-00030,2026-01-24,Customer Service,US,Report Generation,Medium,Bot_9,Tue,135,21.49,15.02,2,46.8,37.9,162.3,No
+RPA-00474,2026-04-26, order processing ,UK,Invoice Processing,Medium,Bot_12,Tue,151,18.41,29.04,1,47.7,66.7,203.4,No
+RPA-00103,2026-03-28,Customer Service,APAC,Report Generation,Low,Bot_11,Fri,228,11.65,17.66,3,28.1,23.8,224.5,Yes
+RPA-00496,2026-04-10,IT Support,US,Reconciliation,High,Bot_1,Wed,162,27.38,45.98,2,48.3,10.5,252.8,No
+RPA-00121,2026-03-07,IT Support,UK,Report Generation,Low,Bot_12,Thu,223,17.31,8.87,2,52.1,0.5,205.3,Yes
+RPA-00190,2026-06-03,Finance,UK,Invoice Processing,Medium,Bot_2,Mon,183,21.91,19.42,2,33.1,87.8,229.5,No
+RPA-00499,2026-05-12,HR,US,Invoice Processing,Low,Bot_8,Fri,264,11.59,17.91,3,32.4,70.6,263.4,Yes
+RPA-00565,2026-01-08,Procurement,APAC,Invoice Processing,Medium,Bot_8,Mon,207,21.71,19.12,1,75.2,28.5,253.0,Yes
+RPA-00396,2026-02-21,IT Support,US,Data Entry,Low,Bot_11,Mon,248,,10.48,1,48.5,20.4,248.8,Yes
+RPA-00430,2026-05-14,Finance,US,Order Validation,Medium,Bot_11,Wed,204,25.57,16.73,4,51.8,2.2,241.1,No
+RPA-00331,2026-04-14,Finance,APAC,Report Generation,Medium,Bot_3,Tue,220,22.52,18.5,3,,8.0,260.9,Yes
+RPA-00481,2026-02-18, order processing ,APAC,Reconciliation,High,Bot_5,Fri,144,24.37,47.43,2,55.8,1.8,231.5,No
+RPA-00084,2026-01-06,Order Processing,US,Data Entry,Low,Bot_2,Wed,147,,22.09,3,24.6,42.6,149.4,No
+RPA-00010,2026-03-03,Procurement,US,Invoice Processing,High,Bot_4,Tue,181,24.03,22.03,7,64.9,62.2,288.2,No
+RPA-00175,2026-04-01,Procurement,UK,Reconciliation,Low,Bot_4,Tue,199,,8.32,1,39.4,43.5,179.7,Yes
+RPA-00473,2026-02-17,Finance,UK,Order Validation,Low,Bot_12,Thu,241,15.46,13.28,1,40.9,10.8,231.3,Yes
+RPA-00493,2026-02-09,Customer Service,UK,Order Validation,Low,Bot_4,Thu,185,15.13,20.41,3,27.8,8.3,179.0,Yes
+RPA-00308,2026-05-04,Procurement,APAC,REPORT GENERATION,Medium,Bot_6,Fri,92,17.64,21.65,3,59.6,65.0,115.8,No
+RPA-00472,2026-04-21,Customer Service,US,Reconciliation,Low,Bot_9,Tue,161,17.18,23.2,1,49.5,56.9,150.2,No
+RPA-00245,2026-05-29,Finance,APAC,Invoice Processing,Medium,Bot_12,Wed,229,20.75,8.19,2,43.9,11.6,295.9,Yes
+RPA-00337,2026-03-07,Procurement,APAC,Data Entry,High,Bot_12,Fri,77,22.22,43.22,5,56.7,29.5,131.6,Yes
+RPA-00422,2026-04-11,Order Processing,UK,Email Triage,Low,Bot_5,Tue,237,17.86,14.76,3,51.1,77.4,218.9,No
+RPA-00028,2026-02-19,Order Processing,US,Report Generation,Medium,Bot_8,Fri,120,20.83,22.13,3,34.7,130.2,143.0,No
+RPA-00172,2026-03-15,Customer Service,APAC,Email Triage,Medium,Bot_2,Mon,225,21.1,11.99,2,42.7,67.1,275.8,Yes
+RPA-00553,2026-03-25,IT Support,UK,Data Entry,High,Bot_12,Wed,139,23.57,36.68,2,51.5,11.4,227.5,Yes
+RPA-00098,2026-02-11,HR,UK,Report Generation,Medium,Bot_2,Mon,191,24.17,13.45,2,52.3,1.1,233.1,Yes
+RPA-00417,2026-01-06,IT Support,APAC,Data Entry,Low,Bot_4,Fri,125,13.83,9.4,2,28.1,52.7,117.1,Yes
+RPA-00127,2026-05-02,IT Support,UK,Data Entry,Medium,Bot_11,Wed,116,19.09,13.97,3,76.3,88.7,157.1,No
+RPA-00122,2026-05-28,Customer Service,US,Report Generation,High,Bot_12,Fri,41,27.96,23.14,3,54.5,68.6,72.4,No
+RPA-00298,2026-01-05,Finance,US,Data Entry,Medium,Bot_9,Thu,182,19.93,14.81,1,48.7,59.3,228.4,Yes
+RPA-00130,2026-02-26,IT Support,US,Order Validation,High,Bot_11,Thu,157,24.96,36.4,4,71.8,37.5,246.7,No
+RPA-00068,2026-01-18,Order Processing,UK,Reconciliation,Low,Bot_10,Mon,268,18.45,18.91,2,40.7,86.5,233.8,Yes
+RPA-00362,2026-03-01,Customer Service,US,Data Entry,High,Bot_8,Thu,77,24.89,22.9,6,77.9,106.8,120.2,No
+RPA-00355,2026-04-06,Finance,UK,Report Generation,Medium,Bot_8,Thu,262,,29.24,3,45.6,4.9,300.1,Yes
+RPA-00476,2026-05-19,Customer Service,UK,Email Triage,High,Bot_9,Thu,132,26.0,24.77,3,72.6,36.7,205.1,No
+RPA-00406,2026-04-18,Order Processing,UK,Order Validation,Low,Bot_8,Fri,165,12.83,4.74,3,48.7,21.2,163.8,No
+RPA-00443,2026-01-20,Finance,UK,Invoice Processing,Low,Bot_8,Tue,176,14.11,13.1,0,39.5,142.5,172.7,Yes
+RPA-00391,2026-04-15,IT Support,UK,Report Generation,Low,Bot_6,Tue,266,10.38,5.91,19,53.3,6.2,276.8,No
+RPA-00110,2026-04-17,Procurement,UK,Report Generation,Medium,Bot_1,Tue,197,23.23,8.81,2,61.2,13.0,236.7,No
+RPA-00252,2026-02-24,Customer Service,UK,Data Entry,Low,Bot_11,Thu,242,10.58,10.51,1,26.3,15.9,253.2,Yes
+RPA-00312,2026-01-30,Procurement,US,Email Triage,Low,Bot_9,Thu,220,9.96,10.42,0,51.3,120.8,223.6,No
+RPA-00049,2026-04-29,HR,UK,Report Generation,Medium,Bot_5,Mon,227,18.82,13.3,3,44.3,53.9,302.1,Yes
+RPA-00416,2026-03-29,Customer Service,US,Reconciliation,Medium,Bot_5,Wed,100,21.5,9.5,2,44.0,60.7,124.2,Yes
+RPA-00055,2026-04-13,Finance,UK,Report Generation,Medium,Bot_6,Thu,150,19.78,50.69,4,43.3,1.7,187.3,Yes
+RPA-00316,2026-02-09,Customer Service,APAC,Order Validation,Medium,Bot_2,Wed,134,19.75,,3,39.0,31.0,162.8,No
+RPA-00273,2026-01-12,,US,Email Triage,Medium,Bot_10,Thu,107,18.93,38.64,3,34.8,11.8,144.4,No
+RPA-00020,2026-03-27,Finance,UK,Data Entry,Low,Bot_7,Thu,239,9.68,7.4,1,53.9,28.2,241.6,Yes
+RPA-00482,2026-04-29,IT Support,UK,Report Generation,Medium,Bot_1,Thu,149,22.54,10.31,5,41.7,17.0,189.9,No
+RPA-00051,2026-03-11,IT Support,US,Order Validation,Low,Bot_5,Tue,241,16.88,21.32,1,28.3,84.5,219.7,Yes
+RPA-00409,2026-01-21,Order Processing,US,Data Entry,Medium,Bot_1,Tue,206,23.46,17.28,5,48.6,61.2,251.0,No
+RPA-00411,2026-03-01,HR,US,Data Entry,Low,Bot_4,Thu,179,9.57,17.36,4,42.2,105.4,189.0,No
+RPA-00543,2026-03-25,IT Support,US,Email Triage,Medium,Bot_8,Tue,189,16.57,26.67,2,43.7,45.8,244.6,No
+RPA-00558,2026-04-28,Order Processing,US,Report Generation,High,Bot_2,Fri,95,23.34,28.36,4,72.8,123.7,160.7,No
+RPA-00184,2026-02-22,IT Support,US,Data Entry,Low,Bot_9,Tue,249,13.58,6.62,0,43.4,6.2,231.1,Yes
+RPA-00376,2026-01-06,IT Support,US,Invoice Processing,Medium,Bot_7,Tue,196,20.0,14.49,3,54.0,20.1,245.8,No
+RPA-00309,2026-01-15,IT Support,APAC,EMAIL TRIAGE,Medium,Bot_2,Tue,166,17.02,16.4,2,63.3,120.7,215.7,No
+RPA-00397,2026-05-30,Procurement,APAC,Invoice Processing,Low,Bot_7,Wed,259,14.76,12.85,1,22.5,66.3,246.1,Yes
+RPA-00380,2026-01-16,HR,US,Email Triage,Low,Bot_1,Mon,234,12.07,3.28,3,32.2,26.8,239.5,Yes
+RPA-00207,2026-03-15,Customer Service,UK,Email Triage,Low,Bot_11,Wed,222,13.23,12.29,0,41.2,38.6,222.8,Yes
+RPA-00457,2026-04-28,Finance,US,Data Entry,Low,Bot_1,Wed,305,11.11,7.22,0,49.4,11.5,302.8,Yes
+RPA-00240,2026-04-21,Procurement,US,Report Generation,Medium,Bot_2,Fri,137,16.07,30.48,1,47.1,52.3,180.3,No
+RPA-00253,2026-04-20,IT SUPPORT,APAC,Order Validation,Low,Bot_8,Wed,262,13.63,6.63,1,29.0,4.0,,Yes

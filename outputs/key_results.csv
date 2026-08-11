@@ -1,0 +1,13 @@
+metric,value
+k_chosen_clustering,2
+glm_accuracy,0.7204
+tree_accuracy,0.6398
+better_model,Logistic Regression
+confusion_TP,64
+confusion_FP,26
+confusion_FN,26
+confusion_TN,70
+precision,0.7111
+recall,0.7111
+f1,0.7111
+auc,0.8007

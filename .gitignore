@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.matplotlib/
+.DS_Store
+outputs/*.txt
